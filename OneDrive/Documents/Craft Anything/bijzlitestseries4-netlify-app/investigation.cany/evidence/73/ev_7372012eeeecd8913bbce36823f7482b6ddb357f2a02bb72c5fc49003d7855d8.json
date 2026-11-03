@@ -1,0 +1,45 @@
+{
+  "id": "ev_7372012eeeecd8913bbce36823f7482b6ddb357f2a02bb72c5fc49003d7855d8",
+  "subject": {
+    "kind": "website",
+    "name": "https://bijzlitestseries4.netlify.app/"
+  },
+  "operation": "web_page_states_capture",
+  "params": {
+    "max_states": 4,
+    "width": 1440
+  },
+  "result": {
+    "folder": "C:\\Users\\Nishant Jha\\OneDrive\\Documents\\Craft Anything\\bijzlitestseries4-netlify-app\\capture\\states",
+    "found": 0,
+    "states": [],
+    "url": "https://bijzlitestseries4.netlify.app/"
+  },
+  "summary": "https://bijzlitestseries4.netlify.app/ has no menus, pop-ups, tabs or collapsed sections to open.",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "first_controls",
+      "message": "Only the first controls found are opened, one at a time; menus inside menus and hover-only menus are not."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 0,
+    "total": 0
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "https://bijzlitestseries4.netlify.app/"
+    }
+  ],
+  "links": []
+}

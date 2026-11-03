@@ -1,0 +1,648 @@
+{
+  "id": "ev_7754e31c45a962531c013a8d80c8524b632bca2c8f00ab9706603b29f5f145b4",
+  "subject": {
+    "kind": "website",
+    "name": "http://127.0.0.1:52264/"
+  },
+  "operation": "web_site_capture",
+  "params": {
+    "include_html": false,
+    "max_height": 12000,
+    "noise_pass": false,
+    "visitor_view": false,
+    "widths": [
+      1440,
+      768,
+      390
+    ]
+  },
+  "result": {
+    "counts": {
+      "forms": 0,
+      "headings": 12,
+      "images": 0,
+      "links": 6,
+      "outline": 70
+    },
+    "design": {
+      "backgrounds": [
+        {
+          "count": 14,
+          "value": "#0f1b2eeb"
+        },
+        {
+          "count": 6,
+          "value": "#eff7ff1f"
+        },
+        {
+          "count": 3,
+          "value": "#0d1727eb"
+        },
+        {
+          "count": 3,
+          "value": "#0a1220c7"
+        },
+        {
+          "count": 2,
+          "value": "#78b5ff"
+        },
+        {
+          "count": 2,
+          "value": "#0d1929db"
+        },
+        {
+          "count": 1,
+          "value": "#57d9a3"
+        },
+        {
+          "count": 1,
+          "value": "#e0894429"
+        },
+        {
+          "count": 1,
+          "value": "#8944e029"
+        },
+        {
+          "count": 1,
+          "value": "#44c1e029"
+        },
+        {
+          "count": 1,
+          "value": "#e0bb4429"
+        },
+        {
+          "count": 1,
+          "value": "#448fe029"
+        },
+        {
+          "count": 1,
+          "value": "#e0447c29"
+        }
+      ],
+      "css_variables": {},
+      "font_faces": [
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Sora",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Sora",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Sora",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Sora",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Sora",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Sora",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Sora",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Sora",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Sora",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Sora",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        }
+      ],
+      "font_sizes": [
+        {
+          "count": 11,
+          "value": "16px"
+        },
+        {
+          "count": 11,
+          "value": "13.76px"
+        },
+        {
+          "count": 10,
+          "value": "13.12px"
+        },
+        {
+          "count": 8,
+          "value": "11.84px"
+        },
+        {
+          "count": 4,
+          "value": "33.6px"
+        },
+        {
+          "count": 3,
+          "value": "12.8px"
+        },
+        {
+          "count": 2,
+          "value": "11.52px"
+        },
+        {
+          "count": 2,
+          "value": "10.88px"
+        },
+        {
+          "count": 2,
+          "value": "65.6px"
+        },
+        {
+          "count": 2,
+          "value": "14.4px"
+        },
+        {
+          "count": 1,
+          "value": "18.4px"
+        },
+        {
+          "count": 1,
+          "value": "15.04px"
+        },
+        {
+          "count": 1,
+          "value": "32px"
+        },
+        {
+          "count": 1,
+          "value": "16.32px"
+        },
+        {
+          "count": 1,
+          "value": "12.48px"
+        }
+      ],
+      "font_weights": [
+        {
+          "count": 25,
+          "value": "700"
+        },
+        {
+          "count": 18,
+          "value": "400"
+        },
+        {
+          "count": 10,
+          "value": "600"
+        },
+        {
+          "count": 7,
+          "value": "800"
+        }
+      ],
+      "fonts": [
+        {
+          "count": 38,
+          "value": "Sora, \"Segoe UI\", sans-serif"
+        },
+        {
+          "count": 22,
+          "value": "Manrope, \"Segoe UI\", sans-serif"
+        }
+      ],
+      "max_widths": [
+        {
+          "count": 1,
+          "value": "620px"
+        },
+        {
+          "count": 1,
+          "value": "647.472px"
+        },
+        {
+          "count": 1,
+          "value": "737.056px"
+        }
+      ],
+      "radii": [
+        {
+          "count": 17,
+          "value": "999px"
+        },
+        {
+          "count": 13,
+          "value": "14px"
+        },
+        {
+          "count": 6,
+          "value": "11px"
+        },
+        {
+          "count": 3,
+          "value": "12px"
+        },
+        {
+          "count": 3,
+          "value": "18px"
+        },
+        {
+          "count": 1,
+          "value": "8px"
+        }
+      ],
+      "shadows": [
+        {
+          "count": 2,
+          "value": "rgba(0, 0, 0, 0.34) 0px 28px 70px 0px"
+        },
+        {
+          "count": 1,
+          "value": "rgba(87, 217, 163, 0.14) 0px 0px 0px 4px"
+        }
+      ],
+      "spacing": [
+        {
+          "count": 24,
+          "value": "15.2px"
+        },
+        {
+          "count": 19,
+          "value": "11.2px"
+        },
+        {
+          "count": 18,
+          "value": "9.6px"
+        },
+        {
+          "count": 18,
+          "value": "8px"
+        },
+        {
+          "count": 17,
+          "value": "4.48px"
+        },
+        {
+          "count": 16,
+          "value": "7.2px"
+        },
+        {
+          "count": 11,
+          "value": "16px"
+        },
+        {
+          "count": 11,
+          "value": "13.6px"
+        },
+        {
+          "count": 10,
+          "value": "12.8px"
+        },
+        {
+          "count": 6,
+          "value": "14.4px"
+        },
+        {
+          "count": 6,
+          "value": "4px"
+        },
+        {
+          "count": 6,
+          "value": "21.6px"
+        },
+        {
+          "count": 6,
+          "value": "1.6px"
+        },
+        {
+          "count": 5,
+          "value": "17.6px"
+        },
+        {
+          "count": 4,
+          "value": "-1px"
+        },
+        {
+          "count": 3,
+          "value": "3.2px"
+        },
+        {
+          "count": 3,
+          "value": "18.4px"
+        },
+        {
+          "count": 2,
+          "value": "3.84px"
+        },
+        {
+          "count": 2,
+          "value": "7.68px"
+        },
+        {
+          "count": 2,
+          "value": "40px"
+        },
+        {
+          "count": 2,
+          "value": "11.52px"
+        },
+        {
+          "count": 2,
+          "value": "20px"
+        },
+        {
+          "count": 1,
+          "value": "83.2px"
+        },
+        {
+          "count": 1,
+          "value": "41.6px"
+        }
+      ],
+      "text_colors": [
+        {
+          "count": 19,
+          "value": "#aabed7"
+        },
+        {
+          "count": 18,
+          "value": "#edf4ff"
+        },
+        {
+          "count": 7,
+          "value": "#d8ebff"
+        },
+        {
+          "count": 7,
+          "value": "#aabed799"
+        },
+        {
+          "count": 2,
+          "value": "#06111d"
+        },
+        {
+          "count": 1,
+          "value": "#57d9a3"
+        },
+        {
+          "count": 1,
+          "value": "#e18747"
+        },
+        {
+          "count": 1,
+          "value": "#8747e1"
+        },
+        {
+          "count": 1,
+          "value": "#47c2e1"
+        },
+        {
+          "count": 1,
+          "value": "#e1ba47"
+        },
+        {
+          "count": 1,
+          "value": "#478fe1"
+        },
+        {
+          "count": 1,
+          "value": "#e1477a"
+        }
+      ]
+    },
+    "files": [
+      "README.md",
+      "capture.json"
+    ],
+    "html_bytes": 0,
+    "output_directory": "C:\\Users\\Nishant Jha\\OneDrive\\Documents\\Craft Anything\\bijzlitestseries4-netlify-app\\checks\\round-3",
+    "screenshots": [
+      {
+        "css_width": 1440,
+        "cut": false,
+        "file": "screenshot-1440.png",
+        "height": 1137,
+        "sha256": "7c36968fdcd7f38ff0bbf7237d7ff17a4f04a280a0c0ca92c8ae0472c6fc4cf7",
+        "width": 1440
+      },
+      {
+        "css_width": 768,
+        "cut": false,
+        "file": "screenshot-768.png",
+        "height": 1547,
+        "sha256": "08ccf9f8a95f50737adfbb4cd853b91e16a7e86c94aadbc698f5d2e08349ec01",
+        "width": 768
+      },
+      {
+        "css_width": 390,
+        "cut": false,
+        "file": "screenshot-390.png",
+        "height": 2164,
+        "sha256": "ce8591c623dd60b6a0dd6694a59225274d48ef948be46300a1441d1c0e769d9b",
+        "width": 390
+      }
+    ],
+    "title": "BIJZLI Test Series",
+    "url": "http://127.0.0.1:52264/"
+  },
+  "summary": "Captured http://127.0.0.1:52264/: 3 screenshot(s), 70 outline items, 12 headings, 0 images, 6 links, 0 forms → C:\\Users\\Nishant Jha\\OneDrive\\Documents\\Craft Anything\\bijzlitestseries4-netlify-app\\checks\\round-3.",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "one_state",
+      "message": "One state of the page: menus, dialogs and content behind interactions are not opened."
+    },
+    {
+      "code": "cross_origin_css",
+      "message": "CSS custom properties and breakpoints from cross-origin stylesheets can't be read."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "http://127.0.0.1:52264/"
+    },
+    {
+      "kind": "path",
+      "value": "C:\\Users\\Nishant Jha\\OneDrive\\Documents\\Craft Anything\\bijzlitestseries4-netlify-app\\checks\\round-3"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,4259 @@
+{
+  "id": "ev_39c1f548af6b7ab652f8696ea489ed43d4b2c206bc74692259ea9956a3ea923e",
+  "subject": {
+    "kind": "website",
+    "name": "https://bijzlitestseries4.netlify.app/"
+  },
+  "operation": "web_page_js_analyze",
+  "params": {
+    "endpoint": "http://127.0.0.1:56611",
+    "limit": 500,
+    "load_source_maps": true,
+    "offset": 0
+  },
+  "result": {
+    "api_operations": [],
+    "app_kind": "unknown",
+    "bundlers": [],
+    "edges": [
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#button:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@561"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#card:auxclick",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(auxclick)@759"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#card:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@603"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#chip:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#chip.addEventListener(click)@809"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#document:keydown",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#document.addEventListener(keydown)@1238"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.clearActivity:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.clearActivity.addEventListener(click)@1278"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaBrowse:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaBrowse.addEventListener(click)@1290"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaResume:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaResume.addEventListener(click)@1296"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.filterInput:input",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.filterInput.addEventListener(input)@1256"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.hideDone:change",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.hideDone.addEventListener(change)@1266"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.resetBtn:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#stepBack@1137"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.search:input",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.search.addEventListener(input)@1185"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.search:keydown",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.search.addEventListener(keydown)@1195"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchClear:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchClear.addEventListener(click)@1226"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchMore:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchMore.addEventListener(click)@1233"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchResults:keydown",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchResults.addEventListener(keydown)@1212"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.sortSelect:change",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.sortSelect.addEventListener(change)@1261"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#tab:click",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#tab.addEventListener(click)@1272"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#window:focus",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(focus)@1316"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#window:hashchange",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(hashchange)@1301"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#window:scroll",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#onScroll@1321"
+      },
+      {
+        "from": "event:bijzlitestseries4.netlify.app/assets/app.js#window:storage",
+        "kind": "handled-by",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(storage)@1310"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyRoute@518",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#parseHash@470"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyRoute@518",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyTheme@1151",
+        "kind": "uses",
+        "to": "storage:localStorage.setItem"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#document:keydown"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.clearActivity:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaBrowse:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaResume:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.filterInput:input"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.hideDone:change"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.resetBtn:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.search:input"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.search:keydown"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchClear:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchMore:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchResults:keydown"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.sortSelect:change"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#window:focus"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#window:hashchange"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#window:scroll"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#window:storage"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#onScroll@1321"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@561",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyTheme@1151"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@561",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@561",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@561",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#toggleSaved@304"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(auxclick)@759",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#recordOpen@288"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@603",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#hashFor@487"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@603",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@603",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#recordOpen@288"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#chip.addEventListener(click)@809",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#emptyState@764",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#button:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#emptyState@764",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#highlight@689",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#icon@234",
+        "kind": "mentions",
+        "to": "endpoint:http://www.w3.org/2000/svg"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "requests",
+        "to": "endpoint:data/series-manifest.json"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyRoute@518"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyTheme@1151"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#buildIndex@342"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#loadLocalState@282"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#localizeShortcutHint@1359"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#showLoadError@1341"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#updateHeaderCounts@1328"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#loadLocalState@282",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#readStore@263"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#miniCard@966",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#card:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#miniCard@966",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#miniCard@966",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#relativeTime@247"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#miniCard@966",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#scoreOf@318"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#miniCard@966",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#scorePill@659"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyRoute@518"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#progressBlock@567",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#providerLabel@184",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#tidy@150"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#readStore@263",
+        "kind": "uses",
+        "to": "storage:localStorage.getItem"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#recordOpen@288",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#readStore@263"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#recordOpen@288",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#writeStore@274"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.clearActivity.addEventListener(click)@1278",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.clearActivity.addEventListener(click)@1278",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#writeStore@274"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaBrowse.addEventListener(click)@1290",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.filterInput.addEventListener(input)@1256",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.hideDone.addEventListener(change)@1266",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.search.addEventListener(keydown)@1195",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchClear.addEventListener(click)@1226",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchMore.addEventListener(click)@1233",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.sortSelect.addEventListener(change)@1261",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#pluralize@223"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderActivity@991"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderBranches@580"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderCrumbs@542"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderProviders@610"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSearch@920"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSeries@637"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderTests@777"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#resolveRoute@506"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#setStatus@533"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#show@538"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderActivity@991",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#activityEntries@959"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderActivity@991",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#emptyState@764"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderActivity@991",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#relativeTime@247"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderActivity@991",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#scoreOf@318"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderCrumbs@542",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#hashFor@487"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSearch@920",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#emptyState@764"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSearch@920",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#pluralize@223"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSearch@920",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#searchPapers@894"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderTests@777",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#emptyState@764"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderTests@777",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#pluralize@223"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderTests@777",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#sortPapers@875"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#saveButton@669",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#button:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#saveButton@669",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#saveButton@669",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#icon@234"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#scorePill@659",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#showLoadError@1341",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#emptyState@764"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#showLoadError@1341",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#setStatus@533"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#showLoadError@1341",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#show@538"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#slugify@158",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#tidy@150"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#stepBack@1137",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#hashFor@487"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#stepBack@1137",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#stepBack@1137",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#resolveRoute@506"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#tab.addEventListener(click)@1272",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderActivity@991"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#card:auxclick"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#card:click"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#entryFor@310"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#highlight@689"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#icon@234"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#relativeTime@247"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#saveButton@669"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#scoreOf@318"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#scorePill@659"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#toggleSaved@304",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#writeStore@274"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(focus)@1316",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#loadLocalState@282"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(focus)@1316",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(hashchange)@1301",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyRoute@518"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(storage)@1310",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#loadLocalState@282"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(storage)@1310",
+        "kind": "calls",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "fn:bijzlitestseries4.netlify.app/assets/app.js#writeStore@274",
+        "kind": "uses",
+        "to": "storage:localStorage.setItem"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#button:click"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#card:click"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#chip:click"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "listens",
+        "to": "event:bijzlitestseries4.netlify.app/assets/app.js#tab:click"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#accentFor@195"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#activityEntries@959"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#activityKey@178"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyRoute@518"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyTheme@1151"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#branchMeta@189"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#branchTests@454"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#buildIndex@342"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@1180"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@561"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@679"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#byId@16"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(auxclick)@759"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@603"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@630"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@652"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@758"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@987"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#categoryOf@199"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#chip.addEventListener(click)@809"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#chip.addEventListener(click)@822"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#document.addEventListener(keydown)@1238"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#emptyState@764"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#entryFor@310"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#hashFor@487"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#highlight@689"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#icon@234"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#loadLocalState@282"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#localizeShortcutHint@1359"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#miniCard@966"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#onScroll@1321"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#openedCount@446"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#paperNumber@216"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#parseHash@470"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#pluralize@223"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#progressBlock@567"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#providerLabel@184"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#providerTests@462"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#readStore@263"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#recordOpen@288"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.clearActivity.addEventListener(click)@1278"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaBrowse.addEventListener(click)@1290"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaResume.addEventListener(click)@1296"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.filterInput.addEventListener(input)@1256"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.hideDone.addEventListener(change)@1266"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.search.addEventListener(input)@1185"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.search.addEventListener(keydown)@1195"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchClear.addEventListener(click)@1226"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchMore.addEventListener(click)@1233"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchResults.addEventListener(keydown)@1212"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.sortSelect.addEventListener(change)@1261"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#relativeTime@247"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderActivity@991"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderBranches@580"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderCrumbs@542"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderProviders@610"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSearch@920"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSeries@637"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderTests@777"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#resolveRoute@506"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#saveButton@669"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#scoreOf@318"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#scorePill@659"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#searchPapers@894"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#setStatus@533"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#show@538"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#showLoadError@1341"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#slugify@158"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#sortPapers@875"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#stepBack@1137"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#tab.addEventListener(click)@1272"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#tidy@150"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#toggleSaved@304"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#unique@438"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#updateHeaderCounts@1328"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(focus)@1316"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(hashchange)@1301"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(storage)@1310"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#writeStore@274"
+      },
+      {
+        "from": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "defines",
+        "to": "fn:bijzlitestseries4.netlify.app/assets/app.js#yearsIn@212"
+      }
+    ],
+    "effects": [],
+    "endpoints": [
+      {
+        "api": "literal",
+        "function": "icon",
+        "line": 235,
+        "literal": true,
+        "method": null,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown",
+        "url": "http://www.w3.org/2000/svg"
+      },
+      {
+        "api": "fetch",
+        "function": "initialize",
+        "line": 1372,
+        "literal": true,
+        "method": null,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown",
+        "url": "data/series-manifest.json"
+      }
+    ],
+    "entry_points": {
+      "pages": [],
+      "preloads": [],
+      "renderers": [],
+      "workers": []
+    },
+    "exposed": [],
+    "graph_id": "ag_0bb7e39c9ffbf4fdf1825abf2f39b1a0f2ba85c9c2169ffd5e59523b7fdec92b",
+    "input_format": "web",
+    "ipc": [],
+    "label": "https://bijzlitestseries4.netlify.app/",
+    "limitations": [],
+    "modules": [
+      {
+        "bundle_modules": [],
+        "bundlers": [],
+        "bytes": 47199,
+        "chunk_ids": [],
+        "exports": {
+          "cjs": [],
+          "esm": []
+        },
+        "fingerprint": "c5fda08577161a21ee3e4410dc2cfc868e79384c1b45f54dc6c5967fe6e53872",
+        "functions": [
+          "byId",
+          "tidy",
+          "slugify",
+          "activityKey",
+          "providerLabel",
+          "branchMeta",
+          "accentFor",
+          "categoryOf",
+          "yearsIn",
+          "paperNumber",
+          "pluralize",
+          "el",
+          "icon",
+          "relativeTime",
+          "readStore",
+          "writeStore",
+          "loadLocalState",
+          "recordOpen",
+          "toggleSaved",
+          "entryFor",
+          "scoreOf",
+          "buildIndex",
+          "unique",
+          "openedCount",
+          "branchTests",
+          "providerTests",
+          "parseHash",
+          "hashFor",
+          "navigate",
+          "resolveRoute",
+          "applyRoute",
+          "setStatus",
+          "show",
+          "renderCrumbs",
+          "button.addEventListener(click)",
+          "progressBlock",
+          "renderBranches",
+          "card.addEventListener(click)",
+          "renderProviders",
+          "card.addEventListener(click)",
+          "renderSeries",
+          "card.addEventListener(click)",
+          "scorePill",
+          "saveButton",
+          "button.addEventListener(click)",
+          "highlight",
+          "testCard",
+          "card.addEventListener(click)",
+          "card.addEventListener(auxclick)",
+          "emptyState",
+          "renderTests",
+          "chip.addEventListener(click)",
+          "chip.addEventListener(click)",
+          "sortPapers",
+          "searchPapers",
+          "renderSearch",
+          "activityEntries",
+          "miniCard",
+          "card.addEventListener(click)",
+          "renderActivity",
+          "render",
+          "stepBack",
+          "applyTheme",
+          "bindEvents",
+          "button.addEventListener(click)",
+          "refs.search.addEventListener(input)",
+          "refs.search.addEventListener(keydown)",
+          "refs.searchResults.addEventListener(keydown)",
+          "refs.searchClear.addEventListener(click)",
+          "refs.searchMore.addEventListener(click)",
+          "document.addEventListener(keydown)",
+          "refs.filterInput.addEventListener(input)",
+          "refs.sortSelect.addEventListener(change)",
+          "refs.hideDone.addEventListener(change)",
+          "tab.addEventListener(click)",
+          "refs.clearActivity.addEventListener(click)",
+          "refs.ctaBrowse.addEventListener(click)",
+          "refs.ctaResume.addEventListener(click)",
+          "window.addEventListener(hashchange)",
+          "window.addEventListener(storage)",
+          "window.addEventListener(focus)",
+          "onScroll",
+          "updateHeaderCounts",
+          "showLoadError",
+          "localizeShortcutHint",
+          "initialize"
+        ],
+        "imports": [],
+        "kind": "script",
+        "parse_mode": "parsed",
+        "path": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown",
+        "sha256": "81b70591581436061352236a062a78326bbf4871e24a1047c75b5b6aca1ae012",
+        "strings": [
+          "use strict",
+          "bijzli-theme-v3",
+          "bijzli-activity-v1",
+          "bijzli-saved-v1",
+          "dark",
+          "bright",
+          "green",
+          ".topbar",
+          "global-search",
+          "search-clear",
+          "search-section",
+          "search-heading",
+          "search-count",
+          "search-results",
+          "search-more",
+          "skeleton",
+          "crumbs",
+          "step-text",
+          "selector-title",
+          "status-note",
+          "reset-btn",
+          "browser",
+          "branch-section",
+          "branch-grid",
+          "provider-section",
+          "provider-grid",
+          "series-section",
+          "series-grid",
+          "tests-section",
+          "tests-list",
+          "filter-chips",
+          "year-chips",
+          "filter-input",
+          "sort-select",
+          "hide-done",
+          "result-count",
+          "branch-count",
+          "provider-count",
+          "test-count",
+          "opened-count",
+          "activity-card",
+          "activity-list",
+          "kpi-row",
+          "clear-activity",
+          "cta-browse",
+          "cta-resume",
+          ".theme-btn",
+          ".tab",
+          "browse",
+          "all",
+          "default",
+          "continue",
+          "DATA SCIENCE",
+          "DA",
+          "COMPUTER",
+          "CS",
+          "ELECTRONICS",
+          "EC",
+          "ELECTRICAL",
+          "EE",
+          "MECHANICAL",
+          "ME",
+          "CIVIL",
+          "CE",
+          "mock",
+          "subjectwise",
+          "topicwise",
+          "aptitude",
+          "advance",
+          "basic",
+          "demo",
+          "full-syllabus",
+          "part-syllabus",
+          "All types",
+          "Mock",
+          "practice-mock",
+          "Practice mock",
+          "Subjectwise",
+          "practice-subjectwise",
+          "Practice subjectwise",
+          "multi-subjectwise",
+          "Multi-subject",
+          "Topicwise",
+          "practice-topicwise",
+          "Practice topicwise",
+          "Aptitude",
+          "Advance",
+          "Basic",
+          "Demo",
+          "Full syllabus",
+          "Part syllabus",
+          "Other",
+          "other",
+          "MADE EASY",
+          "BIJZLI EASY",
+          "GATE ZEAL",
+          "BIJZLI ZEAL",
+          "en-IN",
+          " ",
+          " - ",
+          "-",
+          "item",
+          "GA",
+          "http://www.w3.org/2000/svg",
+          "svg",
+          "viewBox",
+          "0 0 24 24",
+          "aria-hidden",
+          "true",
+          "class",
+          "path",
+          "d",
+          "just now",
+          "yesterday",
+          "numeric",
+          "short",
+          "object",
+          "marks",
+          "questions",
+          "Batch",
+          "/",
+          "q",
+          "search",
+          "saved",
+          "b",
+          "#/",
+          "error",
+          "hidden",
+          "All branches",
+          "span",
+          "crumb-sep",
+          "button",
+          "crumb",
+          "aria-current",
+          "page",
+          "click",
+          "div",
+          "progress",
+          "progress-track",
+          "progress-fill",
+          "p",
+          "progress-text",
+          "branch-card",
+          "--card-accent",
+          "card-head",
+          "code-badge",
+          "h4",
+          "meta",
+          "provider",
+          "paper",
+          "provider-card",
+          "batch",
+          "batches",
+          "series-card",
+          "year-chip",
+          "score-good",
+          "score-mid",
+          "score-low",
+          "correct",
+          "save-btn",
+          "aria-pressed",
+          "aria-label",
+          "Remove from saved",
+          "Save this paper",
+          "Save for later",
+          "M12 4l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 9.7l5.4-.8z",
+          "\\$&",
+          "|",
+          "gi",
+          "mark",
+          "a",
+          "test-card",
+          "_blank",
+          "noopener",
+          "test-top",
+          "test-num",
+          "tag",
+          "tag tag-year",
+          "test-name",
+          "test-crumb",
+          "test-foot",
+          "start-pill",
+          "Reattempt",
+          "Resume",
+          "Start test",
+          "M5 12h14",
+          "M13 6l6 6-6 6",
+          "state-pill",
+          "auxclick",
+          "empty-state span-all",
+          "strong",
+          "ghost-btn ghost-btn-sm",
+          "chip",
+          "active",
+          "chip chip-sm",
+          "All years",
+          "No papers match",
+          "Try a different keyword, clear the type filter, or turn the hide-opened toggle off.",
+          "Reset filters",
+          "az",
+          "za",
+          "score",
+          "Nothing found",
+          "Clear search",
+          "mini-card",
+          "mini-name",
+          "mini-meta",
+          "…",
+          "Papers opened",
+          "Papers scored",
+          "Average score",
+          "—",
+          "Best score",
+          "Last activity",
+          "kpi",
+          "kpi-val",
+          "kpi-lbl",
+          "aria-selected",
+          ".tab-count",
+          "scores",
+          "Nothing saved yet",
+          "Tap the star on any paper to keep it here for later.",
+          "No scores yet",
+          "Submit a paper and your marks will appear here automatically.",
+          "No activity yet",
+          "Open any paper and it will show up here.",
+          "start",
+          "smooth",
+          "Library search",
+          "Search every paper",
+          "Searching across all branches, providers and batches. Press Escape to go back to browsing.",
+          "Step 1 of 4",
+          "Select your branch",
+          "BIJZLI Test Series",
+          "Step 2 of 4",
+          "Select a provider",
+          "Step 3 of 4",
+          "Select a batch",
+          "Step 4 of 4",
+          "Pick a paper",
+          "data-theme",
+          "meta[name=\"theme-color\"]",
+          "content",
+          "#eef4ff",
+          "#071611",
+          "#06111d",
+          "input",
+          "keydown",
+          "Escape",
+          "ArrowDown",
+          ".test-card",
+          "ArrowUp",
+          "k",
+          "change",
+          "Clear your opened papers, scores and saved list from this browser? This cannot be undone.",
+          "hashchange",
+          "storage",
+          "focus",
+          "stuck",
+          "scroll",
+          "Could not load the test library. If you opened index.html directly from a folder, serve it over http (Netlify or a local server) and reload.",
+          "Library unavailable",
+          "The paper index (data/series-manifest.json) could not be fetched.",
+          "Try again",
+          ".kbd-mod",
+          "⌘",
+          "data/series-manifest.json",
+          "no-cache",
+          "Manifest format is invalid."
+        ]
+      }
+    ],
+    "modules_total": 1,
+    "native_modules": [],
+    "nodes": [
+      {
+        "id": "module:bijzlitestseries4.netlify.app/assets/app.js",
+        "kind": "module",
+        "label": "bijzlitestseries4.netlify.app/assets/app.js",
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "document.getElementById"
+          ],
+          "end": 656,
+          "end_line": 16,
+          "exported": false,
+          "kind": "arrow",
+          "params": [
+            "id"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 621,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#byId@16",
+        "kind": "function",
+        "label": "byId",
+        "line": 16,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "String().replace().replace().replace().trim",
+            "String().replace().replace().replace",
+            "String().replace().replace",
+            "String().replace",
+            "String"
+          ],
+          "end": 4712,
+          "end_line": 156,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "text"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 4550,
+          "strings": [
+            " ",
+            " - "
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#tidy@150",
+        "kind": "function",
+        "label": "tidy",
+        "line": 150,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "tidy().toLowerCase().replace().replace",
+            "tidy().toLowerCase().replace",
+            "tidy().toLowerCase",
+            "tidy",
+            "base.slice",
+            "cut.lastIndexOf",
+            "cut.slice"
+          ],
+          "end": 5159,
+          "end_line": 170,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "text"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 4716,
+          "strings": [
+            "-",
+            "item"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#slugify@158",
+        "kind": "function",
+        "label": "slugify",
+        "line": 158,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "String().toLowerCase().replace",
+            "String().toLowerCase",
+            "String"
+          ],
+          "end": 5582,
+          "end_line": 182,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "path"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 5467,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#activityKey@178",
+        "kind": "function",
+        "label": "activityKey",
+        "line": 178,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "tidy",
+            "clean.toUpperCase"
+          ],
+          "end": 5709,
+          "end_line": 187,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "name"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 5586,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#providerLabel@184",
+        "kind": "function",
+        "label": "providerLabel",
+        "line": 184,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "String().toUpperCase",
+            "String",
+            "BRANCH_META.find",
+            "upper.slice"
+          ],
+          "end": 5939,
+          "end_line": 193,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "name"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 5713,
+          "strings": [
+            "GA"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#branchMeta@189",
+        "kind": "function",
+        "label": "branchMeta",
+        "line": 189,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [],
+          "end": 6006,
+          "end_line": 197,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "hue"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 5943,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#accentFor@195",
+        "kind": "function",
+        "label": "accentFor",
+        "line": 195,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "title.toLowerCase",
+            "CATEGORY_RULES.find"
+          ],
+          "end": 6189,
+          "end_line": 203,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "title"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 6010,
+          "strings": [
+            "other"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#categoryOf@199",
+        "kind": "function",
+        "label": "categoryOf",
+        "line": 199,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "Array.from",
+            "new Set",
+            "String().match",
+            "String"
+          ],
+          "end": 6587,
+          "end_line": 214,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "text"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 6470,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#yearsIn@212",
+        "kind": "function",
+        "label": "yearsIn",
+        "line": 212,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "String"
+          ],
+          "end": 6878,
+          "end_line": 221,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "fileName"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 6591,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#paperNumber@216",
+        "kind": "function",
+        "label": "paperNumber",
+        "line": 216,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "numberFormat.format"
+          ],
+          "end": 7027,
+          "end_line": 225,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "count",
+            "singular",
+            "plural"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 6882,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#pluralize@223",
+        "kind": "function",
+        "label": "pluralize",
+        "line": 223,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "document.createElement"
+          ],
+          "end": 7227,
+          "end_line": 232,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "tag",
+            "className",
+            "text"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 7031,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#el@227",
+        "kind": "function",
+        "label": "el",
+        "line": 227,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "document.createElementNS",
+            "svg.setAttribute",
+            "paths.forEach"
+          ],
+          "end": 7691,
+          "end_line": 245,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "paths",
+            "className"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 7231,
+          "strings": [
+            "http://www.w3.org/2000/svg",
+            "svg",
+            "viewBox",
+            "0 0 24 24",
+            "aria-hidden",
+            "true",
+            "class"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#icon@234",
+        "kind": "function",
+        "label": "icon",
+        "line": 234,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "Date.now",
+            "Math.round",
+            "new Date"
+          ],
+          "end": 8245,
+          "end_line": 259,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "timestamp"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 7695,
+          "strings": [
+            "just now",
+            "yesterday",
+            "en-IN",
+            "numeric",
+            "short"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#relativeTime@247",
+        "kind": "function",
+        "label": "relativeTime",
+        "line": 247,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "localStorage.getItem",
+            "JSON.parse"
+          ],
+          "end": 8616,
+          "end_line": 272,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "key",
+            "fallback"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 8328,
+          "strings": [
+            "object"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#readStore@263",
+        "kind": "function",
+        "label": "readStore",
+        "line": 263,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "localStorage.setItem",
+            "JSON.stringify"
+          ],
+          "end": 8837,
+          "end_line": 280,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "key",
+            "value"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 8620,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#writeStore@274",
+        "kind": "function",
+        "label": "writeStore",
+        "line": 274,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "readStore",
+            "new Set",
+            "Array.isArray"
+          ],
+          "end": 9040,
+          "end_line": 286,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 8841,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#loadLocalState@282",
+        "kind": "function",
+        "label": "loadLocalState",
+        "line": 282,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "readStore",
+            "Date.now",
+            "writeStore"
+          ],
+          "end": 9524,
+          "end_line": 302,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "paper"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 9044,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#recordOpen@288",
+        "kind": "function",
+        "label": "recordOpen",
+        "line": 288,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "state.saved.has",
+            "state.saved.delete",
+            "state.saved.add",
+            "writeStore",
+            "Array.from"
+          ],
+          "end": 9701,
+          "end_line": 308,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "path"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 9528,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#toggleSaved@304",
+        "kind": "function",
+        "label": "toggleSaved",
+        "line": 304,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [],
+          "end": 9775,
+          "end_line": 312,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "path"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 9705,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#entryFor@310",
+        "kind": "function",
+        "label": "entryFor",
+        "line": 310,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "Number",
+            "Number.isFinite",
+            "Math.max"
+          ],
+          "end": 10645,
+          "end_line": 338,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "entry"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 9949,
+          "strings": [
+            "marks",
+            "questions"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#scoreOf@318",
+        "kind": "function",
+        "label": "scoreOf",
+        "line": 318,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "new Map",
+            "new Set",
+            "manifest.branches.forEach"
+          ],
+          "end": 14381,
+          "end_line": 436,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "manifest"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 10728,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#buildIndex@342",
+        "kind": "function",
+        "label": "buildIndex",
+        "line": 342,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "used.has",
+            "used.add"
+          ],
+          "end": 14580,
+          "end_line": 444,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "slug",
+            "used"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 14385,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#unique@438",
+        "kind": "function",
+        "label": "unique",
+        "line": 438,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "tests.forEach"
+          ],
+          "end": 14740,
+          "end_line": 452,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "tests"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 14584,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#openedCount@446",
+        "kind": "function",
+        "label": "openedCount",
+        "line": 446,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "branch.providers.forEach"
+          ],
+          "end": 14936,
+          "end_line": 460,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "branch"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 14744,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#branchTests@454",
+        "kind": "function",
+        "label": "branchTests",
+        "line": 454,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "provider.series.forEach"
+          ],
+          "end": 15085,
+          "end_line": 466,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "provider"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 14940,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#providerTests@462",
+        "kind": "function",
+        "label": "providerTests",
+        "line": 462,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "decodeURIComponent",
+            "raw.split(/).filter",
+            "raw.split",
+            "parts.slice().join",
+            "parts.slice"
+          ],
+          "end": 15829,
+          "end_line": 485,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 15168,
+          "strings": [
+            "browse",
+            "/",
+            "q",
+            "search",
+            "saved",
+            "b"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#parseHash@470",
+        "kind": "function",
+        "label": "parseHash",
+        "line": 470,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [],
+          "end": 16067,
+          "end_line": 493,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "branch",
+            "provider",
+            "series"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 15833,
+          "strings": [
+            "#/"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#hashFor@487",
+        "kind": "function",
+        "label": "hashFor",
+        "line": 487,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "history.replaceState",
+            "applyRoute"
+          ],
+          "end": 16318,
+          "end_line": 504,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "hash",
+            "replace"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 16071,
+          "strings": [
+            "#/"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#navigate@495",
+        "kind": "function",
+        "label": "navigate",
+        "line": 495,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "state.branches.find",
+            "branch.providers.find",
+            "provider.series.find"
+          ],
+          "end": 16768,
+          "end_line": 516,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 16322,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#resolveRoute@506",
+        "kind": "function",
+        "label": "resolveRoute",
+        "line": 506,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "parseHash",
+            "render"
+          ],
+          "end": 17112,
+          "end_line": 529,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 16772,
+          "strings": [
+            "search"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyRoute@518",
+        "kind": "function",
+        "label": "applyRoute",
+        "line": 518,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.statusNote.classList.toggle"
+          ],
+          "end": 17345,
+          "end_line": 536,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "message",
+            "isError"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 17196,
+          "strings": [
+            "error"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#setStatus@533",
+        "kind": "function",
+        "label": "setStatus",
+        "line": 533,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "section.classList.toggle"
+          ],
+          "end": 17436,
+          "end_line": 540,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "section",
+            "visible"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 17349,
+          "strings": [
+            "hidden"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#show@538",
+        "kind": "function",
+        "label": "show",
+        "line": 538,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.crumbs.replaceChildren",
+            "trail.push",
+            "hashFor",
+            "trail.forEach"
+          ],
+          "end": 18445,
+          "end_line": 565,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "branch",
+            "provider",
+            "series"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 17440,
+          "strings": [
+            "All branches",
+            "#/"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderCrumbs@542",
+        "kind": "function",
+        "label": "renderCrumbs",
+        "line": 542,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "navigate"
+          ],
+          "end": 18384,
+          "end_line": 561,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "trail.forEach callback@552",
+          "start": 18358,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@561",
+        "kind": "function",
+        "label": "button.addEventListener(click)",
+        "line": 561,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "el",
+            "Math.round",
+            "track.appendChild",
+            "wrap.appendChild"
+          ],
+          "end": 18906,
+          "end_line": 578,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "opened",
+            "total"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 18449,
+          "strings": [
+            "div",
+            "progress",
+            "progress-track",
+            "span",
+            "progress-fill",
+            "p",
+            "progress-text"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#progressBlock@567",
+        "kind": "function",
+        "label": "progressBlock",
+        "line": 567,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.branchGrid.replaceChildren",
+            "document.createDocumentFragment",
+            "state.branches.forEach",
+            "refs.branchGrid.appendChild"
+          ],
+          "end": 19847,
+          "end_line": 608,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 18910,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderBranches@580",
+        "kind": "function",
+        "label": "renderBranches",
+        "line": 580,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "navigate",
+            "hashFor"
+          ],
+          "end": 19755,
+          "end_line": 603,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "state.branches.forEach callback@584",
+          "start": 19724,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@603",
+        "kind": "function",
+        "label": "card.addEventListener(click)",
+        "line": 603,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.providerGrid.replaceChildren",
+            "document.createDocumentFragment",
+            "branch.providers.forEach",
+            "refs.providerGrid.appendChild"
+          ],
+          "end": 20720,
+          "end_line": 635,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "branch"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 19851,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderProviders@610",
+        "kind": "function",
+        "label": "renderProviders",
+        "line": 610,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "navigate",
+            "hashFor"
+          ],
+          "end": 20626,
+          "end_line": 630,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "branch.providers.forEach callback@615",
+          "start": 20585,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@630",
+        "kind": "function",
+        "label": "card.addEventListener(click)",
+        "line": 630,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.seriesGrid.replaceChildren",
+            "document.createDocumentFragment",
+            "provider.series.forEach",
+            "refs.seriesGrid.appendChild"
+          ],
+          "end": 21530,
+          "end_line": 657,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "branch",
+            "provider"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 20724,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSeries@637",
+        "kind": "function",
+        "label": "renderSeries",
+        "line": 637,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "navigate",
+            "hashFor"
+          ],
+          "end": 21438,
+          "end_line": 652,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "provider.series.forEach callback@642",
+          "start": 21389,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@652",
+        "kind": "function",
+        "label": "card.addEventListener(click)",
+        "line": 652,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "el",
+            "pill.appendChild",
+            "document.createTextNode",
+            "Math.round"
+          ],
+          "end": 22024,
+          "end_line": 667,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "score"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 21534,
+          "strings": [
+            "score-good",
+            "score-mid",
+            "score-low",
+            "marks",
+            "correct",
+            "span"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#scorePill@659",
+        "kind": "function",
+        "label": "scorePill",
+        "line": 659,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "el",
+            "state.saved.has",
+            "button.classList.toggle",
+            "button.setAttribute",
+            "String",
+            "button.appendChild",
+            "icon",
+            "button.addEventListener"
+          ],
+          "end": 22728,
+          "end_line": 687,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "paper"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 22028,
+          "strings": [
+            "button",
+            "save-btn",
+            "saved",
+            "aria-pressed",
+            "aria-label",
+            "Remove from saved",
+            "Save this paper",
+            "Save for later",
+            "M12 4l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 9.7l5.4-.8z",
+            "click"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#saveButton@669",
+        "kind": "function",
+        "label": "saveButton",
+        "line": 669,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "event.preventDefault",
+            "event.stopPropagation",
+            "toggleSaved",
+            "render"
+          ],
+          "end": 22702,
+          "end_line": 684,
+          "exported": false,
+          "kind": "arrow",
+          "params": [
+            "event"
+          ],
+          "parent": "saveButton",
+          "start": 22577,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@679",
+        "kind": "function",
+        "label": "button.addEventListener(click)",
+        "line": 679,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "document.createDocumentFragment",
+            "fragment.appendChild",
+            "document.createTextNode",
+            "new RegExp",
+            "tokens.map().join",
+            "tokens.map",
+            "pattern.exec",
+            "text.slice",
+            "el"
+          ],
+          "end": 23619,
+          "end_line": 716,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "text",
+            "tokens"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 22732,
+          "strings": [
+            "|",
+            "gi",
+            "mark"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#highlight@689",
+        "kind": "function",
+        "label": "highlight",
+        "line": 689,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "entryFor",
+            "scoreOf",
+            "el",
+            "card.style.setProperty",
+            "top.appendChild",
+            "card.appendChild",
+            "name.appendChild",
+            "highlight",
+            "start.appendChild",
+            "document.createTextNode",
+            "icon",
+            "foot.appendChild",
+            "scorePill",
+            "relativeTime",
+            "saveButton",
+            "card.addEventListener"
+          ],
+          "end": 25217,
+          "end_line": 762,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "paper",
+            "{…}"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 23623,
+          "strings": [
+            "a",
+            "test-card",
+            "_blank",
+            "noopener",
+            "--card-accent",
+            "div",
+            "test-top",
+            "span",
+            "test-num",
+            "tag",
+            "Other",
+            "tag tag-year",
+            "test-name",
+            "p",
+            "test-crumb",
+            "test-foot",
+            "start-pill",
+            "Reattempt",
+            "Resume",
+            "Start test",
+            "M5 12h14",
+            "M13 6l6 6-6 6",
+            "state-pill",
+            "click",
+            "auxclick"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#testCard@718",
+        "kind": "function",
+        "label": "testCard",
+        "line": 718,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "recordOpen"
+          ],
+          "end": 25129,
+          "end_line": 758,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "testCard",
+          "start": 25106,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@758",
+        "kind": "function",
+        "label": "card.addEventListener(click)",
+        "line": 758,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "recordOpen"
+          ],
+          "end": 25193,
+          "end_line": 759,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "testCard",
+          "start": 25170,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(auxclick)@759",
+        "kind": "function",
+        "label": "card.addEventListener(auxclick)",
+        "line": 759,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "el",
+            "box.appendChild",
+            "button.addEventListener"
+          ],
+          "end": 25656,
+          "end_line": 775,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "title",
+            "detail",
+            "actionLabel",
+            "onAction"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 25221,
+          "strings": [
+            "div",
+            "empty-state span-all",
+            "strong",
+            "span",
+            "button",
+            "ghost-btn ghost-btn-sm",
+            "click"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#emptyState@764",
+        "kind": "function",
+        "label": "emptyState",
+        "line": 764,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.testsList.replaceChildren",
+            "refs.filterChips.replaceChildren",
+            "refs.yearChips.replaceChildren",
+            "new Set",
+            "series.tests.forEach",
+            "categories.has",
+            "Array.from().sort",
+            "Array.from",
+            "years.has",
+            "CATEGORY_ORDER.filter().forEach",
+            "CATEGORY_ORDER.filter",
+            "state.seriesQuery.trim().toLowerCase",
+            "state.seriesQuery.trim",
+            "query.split",
+            "series.tests.filter",
+            "sortPapers",
+            "numberFormat.format",
+            "pluralize",
+            "refs.testsList.appendChild",
+            "emptyState",
+            "document.createDocumentFragment",
+            "visible.forEach"
+          ],
+          "end": 29085,
+          "end_line": 873,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "series"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 25660,
+          "strings": [
+            "all",
+            "paper",
+            "No papers match",
+            "Try a different keyword, clear the type filter, or turn the hide-opened toggle off.",
+            "Reset filters"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderTests@777",
+        "kind": "function",
+        "label": "renderTests",
+        "line": 777,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "render"
+          ],
+          "end": 26954,
+          "end_line": 812,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "CATEGORY_ORDER.filter().forEach callback@804",
+          "start": 26893,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#chip.addEventListener(click)@809",
+        "kind": "function",
+        "label": "chip.addEventListener(click)",
+        "line": 809,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "render"
+          ],
+          "end": 27437,
+          "end_line": 825,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "<anonymous@817>",
+          "start": 27372,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#chip.addEventListener(click)@822",
+        "kind": "function",
+        "label": "chip.addEventListener(click)",
+        "line": 822,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "list.slice",
+            "sorted.sort"
+          ],
+          "end": 29686,
+          "end_line": 890,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "list",
+            "mode"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 29089,
+          "strings": [
+            "az",
+            "za",
+            "score"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#sortPapers@875",
+        "kind": "function",
+        "label": "sortPapers",
+        "line": 875,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "query.toLowerCase().trim().split().filter",
+            "query.toLowerCase().trim().split",
+            "query.toLowerCase().trim",
+            "query.toLowerCase",
+            "state.papers.forEach",
+            "results.sort",
+            "results.map"
+          ],
+          "end": 30739,
+          "end_line": 918,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "query"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 29769,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#searchPapers@894",
+        "kind": "function",
+        "label": "searchPapers",
+        "line": 894,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.searchResults.replaceChildren",
+            "searchPapers",
+            "pluralize",
+            "refs.searchResults.appendChild",
+            "emptyState",
+            "results.slice",
+            "document.createDocumentFragment",
+            "shown.forEach",
+            "numberFormat.format",
+            "Math.min"
+          ],
+          "end": 32052,
+          "end_line": 955,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "query"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 30743,
+          "strings": [
+            "paper",
+            "Nothing found",
+            "Clear search"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderSearch@920",
+        "kind": "function",
+        "label": "renderSearch",
+        "line": 920,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "Object.entries().map().filter().sort",
+            "Object.entries().map().filter",
+            "Object.entries().map",
+            "Object.entries"
+          ],
+          "end": 32449,
+          "end_line": 964,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 32135,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#activityEntries@959",
+        "kind": "function",
+        "label": "activityEntries",
+        "line": 959,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "el",
+            "card.style.setProperty",
+            "card.appendChild",
+            "meta.appendChild",
+            "scoreOf",
+            "scorePill",
+            "relativeTime",
+            "card.addEventListener"
+          ],
+          "end": 33272,
+          "end_line": 989,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "paper",
+            "entry"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 32453,
+          "strings": [
+            "a",
+            "mini-card",
+            "_blank",
+            "noopener",
+            "--card-accent",
+            "span",
+            "mini-name",
+            "div",
+            "mini-meta",
+            "click"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#miniCard@966",
+        "kind": "function",
+        "label": "miniCard",
+        "line": 966,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "recordOpen"
+          ],
+          "end": 33249,
+          "end_line": 987,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "miniCard",
+          "start": 33226,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#card.addEventListener(click)@987",
+        "kind": "function",
+        "label": "card.addEventListener(click)",
+        "line": 987,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "activityEntries",
+            "entries.filter",
+            "Array.from().map().filter",
+            "Array.from().map",
+            "Array.from",
+            "numberFormat.format",
+            "refs.kpiRow.replaceChildren",
+            "scored.reduce",
+            "Math.round",
+            "scoreOf",
+            "relativeTime",
+            "refs.tabs.forEach",
+            "refs.activityList.replaceChildren",
+            "refs.activityList.appendChild",
+            "emptyState",
+            "document.createDocumentFragment",
+            "source.slice().forEach",
+            "source.slice"
+          ],
+          "end": 36486,
+          "end_line": 1064,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 33276,
+          "strings": [
+            "…",
+            "Papers opened",
+            "Papers scored",
+            "Average score",
+            "—",
+            "Best score",
+            "Last activity",
+            "saved",
+            "scores",
+            "Nothing saved yet",
+            "Tap the star on any paper to keep it here for later.",
+            "No scores yet",
+            "Submit a paper and your marks will appear here automatically.",
+            "No activity yet",
+            "Open any paper and it will show up here."
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#renderActivity@991",
+        "kind": "function",
+        "label": "renderActivity",
+        "line": 991,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "resolveRoute",
+            "state.route.q.trim",
+            "refs.browser.getBoundingClientRect",
+            "refs.browser.scrollIntoView",
+            "show",
+            "renderActivity",
+            "refs.crumbs.replaceChildren",
+            "setStatus",
+            "renderSearch",
+            "renderCrumbs",
+            "pluralize",
+            "renderBranches",
+            "renderProviders",
+            "renderSeries",
+            "renderTests"
+          ],
+          "end": 39225,
+          "end_line": 1135,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 36570,
+          "strings": [
+            "search",
+            "start",
+            "smooth",
+            "Library search",
+            "Search every paper",
+            "Searching across all branches, providers and batches. Press Escape to go back to browsing.",
+            "Step 1 of 4",
+            "Select your branch",
+            "paper",
+            "BIJZLI Test Series",
+            "Step 2 of 4",
+            "Select a provider",
+            "Step 3 of 4",
+            "Select a batch",
+            "Step 4 of 4",
+            "Pick a paper"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#render@1068",
+        "kind": "function",
+        "label": "render",
+        "line": 1068,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "navigate",
+            "resolveRoute",
+            "hashFor"
+          ],
+          "end": 39558,
+          "end_line": 1147,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 39229,
+          "strings": [
+            "search",
+            "#/"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#stepBack@1137",
+        "kind": "function",
+        "label": "stepBack",
+        "line": 1137,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "SUPPORTED_THEMES.has",
+            "document.documentElement.setAttribute",
+            "refs.themeButtons.forEach",
+            "document.querySelector",
+            "meta.setAttribute",
+            "localStorage.setItem"
+          ],
+          "end": 40382,
+          "end_line": 1172,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "name"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 39641,
+          "strings": [
+            "dark",
+            "data-theme",
+            "meta[name=\"theme-color\"]",
+            "content",
+            "bright",
+            "#eef4ff",
+            "green",
+            "#071611",
+            "#06111d"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#applyTheme@1151",
+        "kind": "function",
+        "label": "applyTheme",
+        "line": 1151,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.themeButtons.forEach",
+            "refs.resetBtn.addEventListener",
+            "refs.search.addEventListener",
+            "refs.searchResults.addEventListener",
+            "refs.searchClear.addEventListener",
+            "refs.searchMore.addEventListener",
+            "document.addEventListener",
+            "refs.filterInput.addEventListener",
+            "refs.sortSelect.addEventListener",
+            "refs.hideDone.addEventListener",
+            "refs.tabs.forEach",
+            "refs.clearActivity.addEventListener",
+            "refs.ctaBrowse.addEventListener",
+            "refs.ctaResume.addEventListener",
+            "addEventListener",
+            "onScroll"
+          ],
+          "end": 45118,
+          "end_line": 1324,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 40489,
+          "strings": [
+            "click",
+            "input",
+            "keydown",
+            "change",
+            "hashchange",
+            "storage",
+            "focus",
+            "scroll"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#bindEvents@1178",
+        "kind": "function",
+        "label": "bindEvents",
+        "line": 1178,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "applyTheme"
+          ],
+          "end": 40634,
+          "end_line": 1180,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "refs.themeButtons.forEach callback@1179",
+          "start": 40596,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#button.addEventListener(click)@1180",
+        "kind": "function",
+        "label": "button.addEventListener(click)",
+        "line": 1180,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "clearTimeout",
+            "setTimeout"
+          ],
+          "end": 41067,
+          "end_line": 1193,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 40744,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.search.addEventListener(input)@1185",
+        "kind": "function",
+        "label": "refs.search.addEventListener(input)",
+        "line": 1185,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "navigate",
+            "refs.search.blur",
+            "refs.searchResults.querySelector",
+            "event.preventDefault",
+            "first.focus"
+          ],
+          "end": 41530,
+          "end_line": 1210,
+          "exported": false,
+          "kind": "arrow",
+          "params": [
+            "event"
+          ],
+          "parent": "bindEvents",
+          "start": 41115,
+          "strings": [
+            "Escape",
+            "#/",
+            "ArrowDown",
+            ".test-card"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.search.addEventListener(keydown)@1195",
+        "kind": "function",
+        "label": "refs.search.addEventListener(keydown)",
+        "line": 1195,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "Array.from",
+            "refs.searchResults.querySelectorAll",
+            "cards.indexOf",
+            "event.preventDefault",
+            "refs.search.focus",
+            "next.focus"
+          ],
+          "end": 42086,
+          "end_line": 1224,
+          "exported": false,
+          "kind": "arrow",
+          "params": [
+            "event"
+          ],
+          "parent": "bindEvents",
+          "start": 41585,
+          "strings": [
+            "ArrowDown",
+            "ArrowUp",
+            ".test-card"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchResults.addEventListener(keydown)@1212",
+        "kind": "function",
+        "label": "refs.searchResults.addEventListener(keydown)",
+        "line": 1212,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "navigate",
+            "refs.search.focus"
+          ],
+          "end": 42273,
+          "end_line": 1231,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 42137,
+          "strings": [
+            "#/"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchClear.addEventListener(click)@1226",
+        "kind": "function",
+        "label": "refs.searchClear.addEventListener(click)",
+        "line": 1226,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "render"
+          ],
+          "end": 42392,
+          "end_line": 1236,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 42323,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.searchMore.addEventListener(click)@1233",
+        "kind": "function",
+        "label": "refs.searchMore.addEventListener(click)",
+        "line": 1233,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "event.key.toLowerCase",
+            "event.preventDefault",
+            "refs.search.focus",
+            "refs.search.select"
+          ],
+          "end": 43022,
+          "end_line": 1254,
+          "exported": false,
+          "kind": "arrow",
+          "params": [
+            "event"
+          ],
+          "parent": "bindEvents",
+          "start": 42437,
+          "strings": [
+            "k",
+            "/"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#document.addEventListener(keydown)@1238",
+        "kind": "function",
+        "label": "document.addEventListener(keydown)",
+        "line": 1238,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "render"
+          ],
+          "end": 43152,
+          "end_line": 1259,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 43073,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.filterInput.addEventListener(input)@1256",
+        "kind": "function",
+        "label": "refs.filterInput.addEventListener(input)",
+        "line": 1256,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "render"
+          ],
+          "end": 43274,
+          "end_line": 1264,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 43203,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.sortSelect.addEventListener(change)@1261",
+        "kind": "function",
+        "label": "refs.sortSelect.addEventListener(change)",
+        "line": 1261,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "render"
+          ],
+          "end": 43398,
+          "end_line": 1269,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 43323,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.hideDone.addEventListener(change)@1266",
+        "kind": "function",
+        "label": "refs.hideDone.addEventListener(change)",
+        "line": 1266,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "renderActivity"
+          ],
+          "end": 43557,
+          "end_line": 1275,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "refs.tabs.forEach callback@1271",
+          "start": 43471,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#tab.addEventListener(click)@1272",
+        "kind": "function",
+        "label": "tab.addEventListener(click)",
+        "line": 1272,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "confirm",
+            "new Set",
+            "writeStore",
+            "render"
+          ],
+          "end": 43953,
+          "end_line": 1288,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 43618,
+          "strings": [
+            "Clear your opened papers, scores and saved list from this browser? This cannot be undone."
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.clearActivity.addEventListener(click)@1278",
+        "kind": "function",
+        "label": "refs.clearActivity.addEventListener(click)",
+        "line": 1278,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "navigate",
+            "refs.browser.scrollIntoView",
+            "refs.browser.focus"
+          ],
+          "end": 44143,
+          "end_line": 1294,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 44002,
+          "strings": [
+            "#/",
+            "start"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaBrowse.addEventListener(click)@1290",
+        "kind": "function",
+        "label": "refs.ctaBrowse.addEventListener(click)",
+        "line": 1290,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "open"
+          ],
+          "end": 44310,
+          "end_line": 1299,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 44192,
+          "strings": [
+            "_blank",
+            "noopener"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaResume.addEventListener(click)@1296",
+        "kind": "function",
+        "label": "refs.ctaResume.addEventListener(click)",
+        "line": 1296,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "applyRoute",
+            "refs.browser.getBoundingClientRect",
+            "refs.browser.scrollIntoView"
+          ],
+          "end": 44551,
+          "end_line": 1307,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 44356,
+          "strings": [
+            "start"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(hashchange)@1301",
+        "kind": "function",
+        "label": "window.addEventListener(hashchange)",
+        "line": 1301,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "loadLocalState",
+            "render"
+          ],
+          "end": 44826,
+          "end_line": 1314,
+          "exported": false,
+          "kind": "arrow",
+          "params": [
+            "event"
+          ],
+          "parent": "bindEvents",
+          "start": 44675,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(storage)@1310",
+        "kind": "function",
+        "label": "window.addEventListener(storage)",
+        "line": 1310,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "loadLocalState",
+            "render"
+          ],
+          "end": 44940,
+          "end_line": 1319,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 44867,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#window.addEventListener(focus)@1316",
+        "kind": "function",
+        "label": "window.addEventListener(focus)",
+        "line": 1316,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "refs.topbar.classList.toggle"
+          ],
+          "end": 45029,
+          "end_line": 1321,
+          "exported": false,
+          "kind": "arrow",
+          "params": [],
+          "parent": "bindEvents",
+          "start": 44965,
+          "strings": [
+            "stuck"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#onScroll@1321",
+        "kind": "function",
+        "label": "onScroll",
+        "line": 1321,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "numberFormat.format",
+            "new Set",
+            "state.branches.forEach"
+          ],
+          "end": 45740,
+          "end_line": 1339,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 45201,
+          "strings": []
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#updateHeaderCounts@1328",
+        "kind": "function",
+        "label": "updateHeaderCounts",
+        "line": 1328,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "setStatus",
+            "show",
+            "refs.branchGrid.replaceChildren",
+            "emptyState",
+            "console.error"
+          ],
+          "end": 46295,
+          "end_line": 1357,
+          "exported": false,
+          "kind": "declaration",
+          "params": [
+            "error"
+          ],
+          "parent": "<anonymous@7>",
+          "start": 45744,
+          "strings": [
+            "Could not load the test library. If you opened index.html directly from a folder, serve it over http (Netlify or a local server) and reload.",
+            "Library unavailable",
+            "The paper index (data/series-manifest.json) could not be fetched.",
+            "Try again"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#showLoadError@1341",
+        "kind": "function",
+        "label": "showLoadError",
+        "line": 1341,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "document.querySelector"
+          ],
+          "end": 46526,
+          "end_line": 1363,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 46299,
+          "strings": [
+            ".kbd-mod",
+            "⌘"
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#localizeShortcutHint@1359",
+        "kind": "function",
+        "label": "localizeShortcutHint",
+        "line": 1359,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "calls": [
+            "applyTheme",
+            "localizeShortcutHint",
+            "loadLocalState",
+            "bindEvents",
+            "fetch",
+            "new Error",
+            "response.json",
+            "Array.isArray",
+            "buildIndex",
+            "updateHeaderCounts",
+            "applyRoute",
+            "showLoadError"
+          ],
+          "end": 47175,
+          "end_line": 1385,
+          "exported": false,
+          "kind": "declaration",
+          "params": [],
+          "parent": "<anonymous@7>",
+          "start": 46530,
+          "strings": [
+            "data/series-manifest.json",
+            "no-cache",
+            "Manifest format is invalid."
+          ]
+        },
+        "id": "fn:bijzlitestseries4.netlify.app/assets/app.js#initialize@1365",
+        "kind": "function",
+        "label": "initialize",
+        "line": 1365,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "attrs": {
+          "api": "literal",
+          "literal": true
+        },
+        "id": "endpoint:http://www.w3.org/2000/svg",
+        "kind": "endpoint",
+        "label": "http://www.w3.org/2000/svg"
+      },
+      {
+        "attrs": {
+          "api": "fetch",
+          "literal": true
+        },
+        "id": "endpoint:data/series-manifest.json",
+        "kind": "endpoint",
+        "label": "data/series-manifest.json"
+      },
+      {
+        "id": "storage:localStorage.getItem",
+        "kind": "storage",
+        "label": "localStorage.getItem"
+      },
+      {
+        "id": "storage:localStorage.setItem",
+        "kind": "storage",
+        "label": "localStorage.setItem"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#button:click",
+        "kind": "event",
+        "label": "button:click",
+        "line": 561,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#card:click",
+        "kind": "event",
+        "label": "card:click",
+        "line": 603,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#card:auxclick",
+        "kind": "event",
+        "label": "card:auxclick",
+        "line": 759,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#chip:click",
+        "kind": "event",
+        "label": "chip:click",
+        "line": 809,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.resetBtn:click",
+        "kind": "event",
+        "label": "refs.resetBtn:click",
+        "line": 1183,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.search:input",
+        "kind": "event",
+        "label": "refs.search:input",
+        "line": 1185,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.search:keydown",
+        "kind": "event",
+        "label": "refs.search:keydown",
+        "line": 1195,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchResults:keydown",
+        "kind": "event",
+        "label": "refs.searchResults:keydown",
+        "line": 1212,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchClear:click",
+        "kind": "event",
+        "label": "refs.searchClear:click",
+        "line": 1226,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.searchMore:click",
+        "kind": "event",
+        "label": "refs.searchMore:click",
+        "line": 1233,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#document:keydown",
+        "kind": "event",
+        "label": "document:keydown",
+        "line": 1238,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.filterInput:input",
+        "kind": "event",
+        "label": "refs.filterInput:input",
+        "line": 1256,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.sortSelect:change",
+        "kind": "event",
+        "label": "refs.sortSelect:change",
+        "line": 1261,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.hideDone:change",
+        "kind": "event",
+        "label": "refs.hideDone:change",
+        "line": 1266,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#tab:click",
+        "kind": "event",
+        "label": "tab:click",
+        "line": 1272,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.clearActivity:click",
+        "kind": "event",
+        "label": "refs.clearActivity:click",
+        "line": 1278,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaBrowse:click",
+        "kind": "event",
+        "label": "refs.ctaBrowse:click",
+        "line": 1290,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#refs.ctaResume:click",
+        "kind": "event",
+        "label": "refs.ctaResume:click",
+        "line": 1296,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#window:hashchange",
+        "kind": "event",
+        "label": "window:hashchange",
+        "line": 1301,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#window:storage",
+        "kind": "event",
+        "label": "window:storage",
+        "line": 1310,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#window:focus",
+        "kind": "event",
+        "label": "window:focus",
+        "line": 1316,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "id": "event:bijzlitestseries4.netlify.app/assets/app.js#window:scroll",
+        "kind": "event",
+        "label": "window:scroll",
+        "line": 1322,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      }
+    ],
+    "origin": "https://bijzlitestseries4.netlify.app/",
+    "package": null,
+    "routes": [],
+    "scripts_seen": 4,
+    "source_maps": [],
+    "stats": {
+      "api_operations": 0,
+      "bundle_modules": 0,
+      "edges": 227,
+      "endpoints": 2,
+      "files": 4,
+      "functions": 86,
+      "ipc_channels": 0,
+      "listed": 4,
+      "modules": 1,
+      "nodes": 113,
+      "paired_channels": 0
+    },
+    "storage": [
+      {
+        "api": "localStorage.getItem",
+        "arg": null,
+        "function": "readStore",
+        "line": 265,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "api": "localStorage.setItem",
+        "arg": null,
+        "function": "writeStore",
+        "line": 276,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      },
+      {
+        "api": "localStorage.setItem",
+        "arg": null,
+        "function": "applyTheme",
+        "line": 1168,
+        "module": "bijzlitestseries4.netlify.app/assets/app.js",
+        "role": "unknown"
+      }
+    ],
+    "vendors": [],
+    "windows": []
+  },
+  "summary": "Analysed 4 script(s) from https://bijzlitestseries4.netlify.app/: 1 module(s), 2 endpoint(s), 0 route(s).",
+  "confidence": "derived",
+  "authority": "earlier-record",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "live_subset",
+      "message": "Only the scripts this live page had loaded during the window were analysed; lazily loaded chunks may be missing."
+    },
+    {
+      "code": "static_only",
+      "message": "Static reading only: code built at run time (eval, computed imports) is invisible."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "https://bijzlitestseries4.netlify.app/"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,2327 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "complementary": 1,
+      "contentinfo": 1,
+      "main": 1,
+      "search": 1
+    },
+    "lang": "en",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [
+      "https://fonts.googleapis.com/css2"
+    ],
+    "images": [],
+    "inline_scripts": 1,
+    "requests": [
+      {
+        "bytes": 1141,
+        "type": "link",
+        "url": "https://fonts.googleapis.com/css2"
+      },
+      {
+        "bytes": 469327,
+        "type": "link",
+        "url": "http://127.0.0.1:52264/data/series-manifest.json"
+      },
+      {
+        "bytes": 30146,
+        "type": "link",
+        "url": "http://127.0.0.1:52264/assets/styles.css"
+      },
+      {
+        "bytes": 43986,
+        "type": "script",
+        "url": "http://127.0.0.1:52264/assets/app.js"
+      }
+    ],
+    "scripts": [
+      "http://127.0.0.1:52264/assets/app.js"
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap",
+      "http://127.0.0.1:52264/assets/styles.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 1,
+      "px": 560,
+      "query": "max-width 560px"
+    },
+    {
+      "count": 1,
+      "px": 760,
+      "query": "max-width 760px"
+    },
+    {
+      "count": 1,
+      "px": 880,
+      "query": "max-width 880px"
+    },
+    {
+      "count": 1,
+      "px": 1080,
+      "query": "max-width 1080px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 14,
+        "value": "#0f1b2eeb"
+      },
+      {
+        "count": 6,
+        "value": "#eff7ff1f"
+      },
+      {
+        "count": 3,
+        "value": "#0d1727eb"
+      },
+      {
+        "count": 3,
+        "value": "#0a1220c7"
+      },
+      {
+        "count": 2,
+        "value": "#78b5ff"
+      },
+      {
+        "count": 2,
+        "value": "#0d1929db"
+      },
+      {
+        "count": 1,
+        "value": "#57d9a3"
+      },
+      {
+        "count": 1,
+        "value": "#e0894429"
+      },
+      {
+        "count": 1,
+        "value": "#8944e029"
+      },
+      {
+        "count": 1,
+        "value": "#44c1e029"
+      },
+      {
+        "count": 1,
+        "value": "#e0bb4429"
+      },
+      {
+        "count": 1,
+        "value": "#448fe029"
+      },
+      {
+        "count": 1,
+        "value": "#e0447c29"
+      }
+    ],
+    "css_variables": {},
+    "font_faces": [
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Manrope",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Manrope",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Sora",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Sora",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Sora",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Sora",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Sora",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Sora",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Sora",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Sora",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Sora",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Sora",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      }
+    ],
+    "font_sizes": [
+      {
+        "count": 11,
+        "value": "16px"
+      },
+      {
+        "count": 11,
+        "value": "13.76px"
+      },
+      {
+        "count": 10,
+        "value": "13.12px"
+      },
+      {
+        "count": 8,
+        "value": "11.84px"
+      },
+      {
+        "count": 4,
+        "value": "33.6px"
+      },
+      {
+        "count": 3,
+        "value": "12.8px"
+      },
+      {
+        "count": 2,
+        "value": "11.52px"
+      },
+      {
+        "count": 2,
+        "value": "10.88px"
+      },
+      {
+        "count": 2,
+        "value": "65.6px"
+      },
+      {
+        "count": 2,
+        "value": "14.4px"
+      },
+      {
+        "count": 1,
+        "value": "18.4px"
+      },
+      {
+        "count": 1,
+        "value": "15.04px"
+      },
+      {
+        "count": 1,
+        "value": "32px"
+      },
+      {
+        "count": 1,
+        "value": "16.32px"
+      },
+      {
+        "count": 1,
+        "value": "12.48px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 25,
+        "value": "700"
+      },
+      {
+        "count": 18,
+        "value": "400"
+      },
+      {
+        "count": 10,
+        "value": "600"
+      },
+      {
+        "count": 7,
+        "value": "800"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 38,
+        "value": "Sora, \"Segoe UI\", sans-serif"
+      },
+      {
+        "count": 22,
+        "value": "Manrope, \"Segoe UI\", sans-serif"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 1,
+        "value": "620px"
+      },
+      {
+        "count": 1,
+        "value": "647.472px"
+      },
+      {
+        "count": 1,
+        "value": "737.056px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 17,
+        "value": "999px"
+      },
+      {
+        "count": 13,
+        "value": "14px"
+      },
+      {
+        "count": 6,
+        "value": "11px"
+      },
+      {
+        "count": 3,
+        "value": "12px"
+      },
+      {
+        "count": 3,
+        "value": "18px"
+      },
+      {
+        "count": 1,
+        "value": "8px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 2,
+        "value": "rgba(0, 0, 0, 0.34) 0px 28px 70px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgba(87, 217, 163, 0.14) 0px 0px 0px 4px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 24,
+        "value": "15.2px"
+      },
+      {
+        "count": 19,
+        "value": "11.2px"
+      },
+      {
+        "count": 18,
+        "value": "9.6px"
+      },
+      {
+        "count": 18,
+        "value": "8px"
+      },
+      {
+        "count": 17,
+        "value": "4.48px"
+      },
+      {
+        "count": 16,
+        "value": "7.2px"
+      },
+      {
+        "count": 11,
+        "value": "16px"
+      },
+      {
+        "count": 11,
+        "value": "13.6px"
+      },
+      {
+        "count": 10,
+        "value": "12.8px"
+      },
+      {
+        "count": 6,
+        "value": "14.4px"
+      },
+      {
+        "count": 6,
+        "value": "4px"
+      },
+      {
+        "count": 6,
+        "value": "21.6px"
+      },
+      {
+        "count": 6,
+        "value": "1.6px"
+      },
+      {
+        "count": 5,
+        "value": "17.6px"
+      },
+      {
+        "count": 4,
+        "value": "-1px"
+      },
+      {
+        "count": 3,
+        "value": "3.2px"
+      },
+      {
+        "count": 3,
+        "value": "18.4px"
+      },
+      {
+        "count": 2,
+        "value": "3.84px"
+      },
+      {
+        "count": 2,
+        "value": "7.68px"
+      },
+      {
+        "count": 2,
+        "value": "40px"
+      },
+      {
+        "count": 2,
+        "value": "11.52px"
+      },
+      {
+        "count": 2,
+        "value": "20px"
+      },
+      {
+        "count": 1,
+        "value": "83.2px"
+      },
+      {
+        "count": 1,
+        "value": "41.6px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 19,
+        "value": "#aabed7"
+      },
+      {
+        "count": 18,
+        "value": "#edf4ff"
+      },
+      {
+        "count": 7,
+        "value": "#d8ebff"
+      },
+      {
+        "count": 7,
+        "value": "#aabed799"
+      },
+      {
+        "count": 2,
+        "value": "#06111d"
+      },
+      {
+        "count": 1,
+        "value": "#57d9a3"
+      },
+      {
+        "count": 1,
+        "value": "#e18747"
+      },
+      {
+        "count": 1,
+        "value": "#8747e1"
+      },
+      {
+        "count": 1,
+        "value": "#47c2e1"
+      },
+      {
+        "count": 1,
+        "value": "#e1ba47"
+      },
+      {
+        "count": 1,
+        "value": "#478fe1"
+      },
+      {
+        "count": 1,
+        "value": "#e1477a"
+      }
+    ]
+  },
+  "forms": [],
+  "headings": [
+    {
+      "level": 1,
+      "text": "BIJZLI Test Series"
+    },
+    {
+      "level": 2,
+      "text": "6"
+    },
+    {
+      "level": 2,
+      "text": "4"
+    },
+    {
+      "level": 2,
+      "text": "1,061"
+    },
+    {
+      "level": 2,
+      "text": "0"
+    },
+    {
+      "level": 2,
+      "text": "Pick up where you left off"
+    },
+    {
+      "level": 2,
+      "text": "Select your branch"
+    },
+    {
+      "level": 3,
+      "text": "Search results"
+    },
+    {
+      "level": 3,
+      "text": "Engineering branch"
+    },
+    {
+      "level": 3,
+      "text": "Test series provider"
+    },
+    {
+      "level": 3,
+      "text": "Batch / year"
+    },
+    {
+      "level": 3,
+      "text": "Test papers"
+    }
+  ],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "background": "#0d1929db",
+          "column": {
+            "max_w": 620,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 620,
+            "x": 337
+          },
+          "h": 70,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "header",
+          "w": 1425,
+          "y": 4
+        },
+        {
+          "column": {
+            "max_w": 647,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 647,
+            "x": 95
+          },
+          "gap": 14,
+          "h": 884,
+          "heading": "BIJZLI Test Series",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 4,
+          "tag": "main",
+          "w": 1280,
+          "y": 86
+        },
+        {
+          "background": "#0a1220c7",
+          "column": {
+            "max_w": 647,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 647,
+            "x": 95
+          },
+          "gap": 18,
+          "h": 368,
+          "heading": "BIJZLI Test Series",
+          "pad": [
+            22,
+            22,
+            22,
+            22
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 1280,
+          "y": 86
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 86,
+          "heading": "6",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 175,
+          "y": 346
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 86,
+          "heading": "4",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 175,
+          "y": 346
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 86,
+          "heading": "1,061",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 175,
+          "y": 346
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 86,
+          "heading": "0",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 175,
+          "y": 346
+        },
+        {
+          "background": "#0f1b2eeb",
+          "gap": 8,
+          "h": 122,
+          "pad": [
+            16,
+            16,
+            16,
+            16
+          ],
+          "per_row": 1,
+          "tag": "aside",
+          "w": 487,
+          "y": 109
+        },
+        {
+          "background": "#0a1220c7",
+          "h": 501,
+          "heading": "Select your branch",
+          "pad": [
+            18,
+            22,
+            22,
+            22
+          ],
+          "per_row": 4,
+          "tag": "section",
+          "w": 1280,
+          "y": 469
+        },
+        {
+          "h": 314,
+          "heading": "Engineering branch",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 4,
+          "tag": "section",
+          "w": 1235,
+          "y": 633
+        },
+        {
+          "h": 87,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 1280,
+          "y": 1010
+        }
+      ],
+      "page_h": 1137,
+      "page_w": 1425,
+      "type": {
+        "body": 16,
+        "h1": 66,
+        "h2": 34,
+        "h3": 16
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "background": "#0d1929db",
+          "h": 131,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 753,
+          "y": 11
+        },
+        {
+          "column": {
+            "max_w": 379,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 379,
+            "x": 39
+          },
+          "gap": 14,
+          "h": 1211,
+          "heading": "BIJZLI Test Series",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "main",
+          "w": 721,
+          "y": 147
+        },
+        {
+          "background": "#0a1220c7",
+          "column": {
+            "max_w": 379,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 379,
+            "x": 39
+          },
+          "gap": 18,
+          "h": 563,
+          "heading": "BIJZLI Test Series",
+          "pad": [
+            22,
+            22,
+            22,
+            22
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 721,
+          "y": 147
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 77,
+          "heading": "6",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 333,
+          "y": 405
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 77,
+          "heading": "4",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 333,
+          "y": 405
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 77,
+          "heading": "1,061",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 333,
+          "y": 492
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 77,
+          "heading": "0",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 333,
+          "y": 492
+        },
+        {
+          "background": "#0f1b2eeb",
+          "gap": 8,
+          "h": 100,
+          "pad": [
+            16,
+            16,
+            16,
+            16
+          ],
+          "per_row": 1,
+          "tag": "aside",
+          "w": 676,
+          "y": 587
+        },
+        {
+          "background": "#0a1220c7",
+          "h": 634,
+          "heading": "Select your branch",
+          "pad": [
+            18,
+            22,
+            22,
+            22
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 721,
+          "y": 724
+        },
+        {
+          "h": 458,
+          "heading": "Engineering branch",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 676,
+          "y": 876
+        },
+        {
+          "h": 109,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 721,
+          "y": 1398
+        }
+      ],
+      "page_h": 1547,
+      "page_w": 753,
+      "type": {
+        "body": 16,
+        "h1": 38,
+        "h2": 26,
+        "h3": 16
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "background": "#0d1929db",
+          "h": 131,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 390,
+          "y": 221
+        },
+        {
+          "column": {
+            "max_w": 737,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 332,
+            "x": 29
+          },
+          "gap": 14,
+          "h": 1806,
+          "heading": "BIJZLI Test Series",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "main",
+          "w": 368,
+          "y": 147
+        },
+        {
+          "background": "#0a1220c7",
+          "column": {
+            "max_w": 737,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 332,
+            "x": 29
+          },
+          "gap": 18,
+          "h": 710,
+          "heading": "BIJZLI Test Series",
+          "pad": [
+            17,
+            17,
+            17,
+            17
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 368,
+          "y": 147
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 75,
+          "heading": "6",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 161,
+          "y": 518
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 75,
+          "heading": "4",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 161,
+          "y": 518
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 75,
+          "heading": "1,061",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 161,
+          "y": 602
+        },
+        {
+          "background": "#0f1b2eeb",
+          "h": 75,
+          "heading": "0",
+          "pad": [
+            13,
+            14,
+            13,
+            14
+          ],
+          "per_row": 1,
+          "tag": "article",
+          "w": 161,
+          "y": 602
+        },
+        {
+          "background": "#0f1b2eeb",
+          "gap": 8,
+          "h": 144,
+          "pad": [
+            16,
+            16,
+            16,
+            16
+          ],
+          "per_row": 1,
+          "tag": "aside",
+          "w": 332,
+          "y": 695
+        },
+        {
+          "background": "#0a1220c7",
+          "h": 1082,
+          "heading": "Select your branch",
+          "pad": [
+            17,
+            17,
+            17,
+            17
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 368,
+          "y": 871
+        },
+        {
+          "h": 891,
+          "heading": "Engineering branch",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 332,
+          "y": 1044
+        },
+        {
+          "h": 131,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 368,
+          "y": 1993
+        }
+      ],
+      "page_h": 2164,
+      "page_w": 390,
+      "type": {
+        "body": 16,
+        "h1": 35,
+        "h2": 24,
+        "h3": 16
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "http://127.0.0.1:52264/#browser",
+      "text": "Skip to paper browser"
+    },
+    {
+      "href": "http://127.0.0.1:52264/#/",
+      "text": "B BIJZLI TEST SERIES"
+    },
+    {
+      "href": "https://t.me/BIJZLI",
+      "text": "BIJZLI"
+    },
+    {
+      "href": "https://t.me/BIJZLI",
+      "text": "Report a content issue"
+    },
+    {
+      "href": "https://t.me/BIJZLI",
+      "text": "@BIJZLI"
+    },
+    {
+      "href": "https://t.me/BIJZLI",
+      "text": "BIJZLI"
+    }
+  ],
+  "meta": {
+    "description": "Free GATE and ESE test series for Civil, Computer Science, Data Science & AI, Electrical, Electronics and Mechanical Engineering. 709 exam-style papers with timer, calculator, instant scoring and solutions.",
+    "icons": [
+      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d1b2e'/%3E%3Cpath d='M20 16h13c6.6 0 10.5 3.3 10.5 8.6 0 3.4-1.8 5.9-4.7 7 3.8 1 6.2 3.8 6.2 7.9 0 5.8-4.3 9.5-11.5 9.5H20z' fill='none' stroke='%2378b5ff' stroke-width='4.5' stroke-linejoin='round'/%3E%3C/svg%3E"
+    ],
+    "og_image": "",
+    "og_title": "BIJZLI Test Series - Free GATE & ESE Papers",
+    "theme_color": "#06111d"
+  },
+  "outline": [
+    {
+      "background": "#78b5ff",
+      "box": {
+        "h": 43,
+        "w": 215,
+        "x": 605,
+        "y": -61
+      },
+      "class": "skip-link",
+      "color": "#06111d",
+      "depth": 2,
+      "font": "16px 700",
+      "href": "http://127.0.0.1:52264/#browser",
+      "tag": "a",
+      "text": "Skip to paper browser"
+    },
+    {
+      "background": "#0d1929db",
+      "box": {
+        "h": 70,
+        "w": 1425,
+        "x": 0,
+        "y": 4
+      },
+      "class": "topbar stuck",
+      "color": "#edf4ff",
+      "depth": 2,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "header"
+    },
+    {
+      "box": {
+        "h": 38,
+        "w": 132,
+        "x": 73,
+        "y": 20
+      },
+      "class": "topbar-brand",
+      "color": "#edf4ff",
+      "depth": 4,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52264/#/",
+      "tag": "a",
+      "text": "B BIJZLI TEST SERIES"
+    },
+    {
+      "box": {
+        "h": 46,
+        "w": 620,
+        "x": 337,
+        "y": 16
+      },
+      "class": "search-shell",
+      "color": "#edf4ff",
+      "depth": 4,
+      "font": "16px 400",
+      "role": "search",
+      "tag": "search",
+      "text": "Search all test papers Type to search across all branches. Use arrow keys to move through results and Enter to open a paper. Ctrl K"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 350,
+        "y": 30
+      },
+      "color": "#aabed7",
+      "depth": 5,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "background": "#0d1727eb",
+      "box": {
+        "h": 46,
+        "w": 620,
+        "x": 337,
+        "y": 16
+      },
+      "color": "#edf4ff",
+      "depth": 5,
+      "font": "14.72px 400",
+      "id": "global-search",
+      "name": "",
+      "placeholder": "Search 1,061 papers - subject, test number, year",
+      "tag": "input",
+      "type": "search"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 336,
+        "y": 38
+      },
+      "class": "sr-only",
+      "color": "#edf4ff",
+      "depth": 5,
+      "font": "16px 400",
+      "id": "search-hint",
+      "tag": "p",
+      "text": "Type to search across all branches. Use arrow keys to move through results and Enter to open a paper."
+    },
+    {
+      "background": "#0d1727eb",
+      "box": {
+        "h": 47,
+        "w": 264,
+        "x": 1088,
+        "y": 15
+      },
+      "class": "theme-corner",
+      "color": "#edf4ff",
+      "depth": 4,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div",
+      "text": "Dark Bright Green"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 36,
+        "w": 75,
+        "x": 1094,
+        "y": 21
+      },
+      "class": "theme-btn active",
+      "color": "#edf4ff",
+      "depth": 5,
+      "font": "12.8px 600",
+      "tag": "button",
+      "text": "Dark"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 85,
+        "x": 1173,
+        "y": 21
+      },
+      "class": "theme-btn",
+      "color": "#aabed7",
+      "depth": 5,
+      "font": "12.8px 600",
+      "tag": "button",
+      "text": "Bright"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 85,
+        "x": 1262,
+        "y": 21
+      },
+      "class": "theme-btn",
+      "color": "#aabed7",
+      "depth": 5,
+      "font": "12.8px 600",
+      "tag": "button",
+      "text": "Green"
+    },
+    {
+      "box": {
+        "h": 884,
+        "w": 1280,
+        "x": 73,
+        "y": 86
+      },
+      "class": "layout",
+      "color": "#edf4ff",
+      "depth": 2,
+      "display": "grid",
+      "font": "16px 400",
+      "grid": "1280px",
+      "tag": "main"
+    },
+    {
+      "background": "#0a1220c7",
+      "box": {
+        "h": 368,
+        "w": 1280,
+        "x": 73,
+        "y": 86
+      },
+      "class": "hero card",
+      "color": "#edf4ff",
+      "depth": 3,
+      "display": "grid",
+      "font": "16px 400",
+      "grid": "730.328px 486.891px",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 14,
+        "w": 730,
+        "x": 95,
+        "y": 109
+      },
+      "class": "eyebrow",
+      "color": "#d8ebff",
+      "depth": 5,
+      "font": "11.84px 700",
+      "tag": "p",
+      "text": "FREE FOREVER - NEVER PAY ANYONE FOR THIS"
+    },
+    {
+      "box": {
+        "h": 66,
+        "w": 647,
+        "x": 95,
+        "y": 137
+      },
+      "color": "#edf4ff",
+      "depth": 5,
+      "font": "65.6px 700",
+      "tag": "h1",
+      "text": "BIJZLI Test Series"
+    },
+    {
+      "box": {
+        "h": 90,
+        "w": 182,
+        "x": 95,
+        "y": 124
+      },
+      "class": "brand-link",
+      "color": "#d8ebff",
+      "depth": 6,
+      "font": "65.6px 700",
+      "href": "https://t.me/BIJZLI",
+      "tag": "a",
+      "text": "BIJZLI"
+    },
+    {
+      "box": {
+        "h": 51,
+        "w": 730,
+        "x": 95,
+        "y": 217
+      },
+      "class": "subtitle",
+      "color": "#aabed7",
+      "depth": 5,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Branch-wise GATE and ESE papers that run exactly like the real exam - question palette, countdown timer, on-screen calculator, submit flow, and a full score review with solutions."
+    },
+    {
+      "background": "#78b5ff",
+      "box": {
+        "h": 46,
+        "w": 198,
+        "x": 95,
+        "y": 283
+      },
+      "class": "primary-btn",
+      "color": "#06111d",
+      "depth": 6,
+      "font": "15.04px 700",
+      "id": "cta-browse",
+      "tag": "button",
+      "text": "Browse branches"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 17,
+        "x": 256,
+        "y": 297
+      },
+      "color": "#06111d",
+      "depth": 7,
+      "font": "15.04px 700",
+      "tag": "svg"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 46,
+        "w": 200,
+        "x": 302,
+        "y": 283
+      },
+      "class": "ghost-btn",
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "14.4px 600",
+      "href": "https://t.me/BIJZLI",
+      "tag": "a",
+      "text": "Report a content issue"
+    },
+    {
+      "box": {
+        "h": 86,
+        "w": 730,
+        "x": 95,
+        "y": 346
+      },
+      "class": "stats",
+      "color": "#edf4ff",
+      "depth": 5,
+      "font": "16px 400",
+      "role": "list",
+      "tag": "div",
+      "text": "6 Branches 4 Providers 1,061 Papers 0 Opened by you"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 86,
+        "w": 175,
+        "x": 95,
+        "y": 346
+      },
+      "class": "stat-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "display": "block",
+      "font": "16px 400",
+      "role": "listitem",
+      "tag": "article"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 146,
+        "x": 110,
+        "y": 360
+      },
+      "color": "#edf4ff",
+      "depth": 7,
+      "font": "33.6px 700",
+      "id": "branch-count",
+      "tag": "h2",
+      "text": "6"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 146,
+        "x": 110,
+        "y": 401
+      },
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "Branches"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 86,
+        "w": 175,
+        "x": 280,
+        "y": 346
+      },
+      "class": "stat-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "display": "block",
+      "font": "16px 400",
+      "role": "listitem",
+      "tag": "article"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 146,
+        "x": 295,
+        "y": 360
+      },
+      "color": "#edf4ff",
+      "depth": 7,
+      "font": "33.6px 700",
+      "id": "provider-count",
+      "tag": "h2",
+      "text": "4"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 146,
+        "x": 295,
+        "y": 401
+      },
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "Providers"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 86,
+        "w": 175,
+        "x": 465,
+        "y": 346
+      },
+      "class": "stat-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "display": "block",
+      "font": "16px 400",
+      "role": "listitem",
+      "tag": "article"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 146,
+        "x": 480,
+        "y": 360
+      },
+      "color": "#edf4ff",
+      "depth": 7,
+      "font": "33.6px 700",
+      "id": "test-count",
+      "tag": "h2",
+      "text": "1,061"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 146,
+        "x": 480,
+        "y": 401
+      },
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "Papers"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 86,
+        "w": 175,
+        "x": 650,
+        "y": 346
+      },
+      "class": "stat-card stat-card-you",
+      "color": "#edf4ff",
+      "depth": 6,
+      "display": "block",
+      "font": "16px 400",
+      "role": "listitem",
+      "tag": "article"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 146,
+        "x": 665,
+        "y": 360
+      },
+      "color": "#57d9a3",
+      "depth": 7,
+      "font": "33.6px 700",
+      "id": "opened-count",
+      "tag": "h2",
+      "text": "0"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 146,
+        "x": 665,
+        "y": 401
+      },
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "Opened by you"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 122,
+        "w": 487,
+        "x": 843,
+        "y": 109
+      },
+      "class": "support-banner",
+      "color": "#edf4ff",
+      "depth": 4,
+      "display": "grid",
+      "font": "16px 400",
+      "grid": "452.891px",
+      "tag": "aside"
+    },
+    {
+      "box": {
+        "h": 66,
+        "w": 453,
+        "x": 860,
+        "y": 148
+      },
+      "color": "#edf4ff",
+      "depth": 5,
+      "font": "13.76px 400",
+      "tag": "p",
+      "text": "This library is given away free. Do not fall into the trap of any seller. If someone tries to sell this content, report them on Telegram at @BIJZLI."
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 60,
+        "x": 944,
+        "y": 194
+      },
+      "class": "brand-link",
+      "color": "#d8ebff",
+      "depth": 6,
+      "font": "13.76px 700",
+      "href": "https://t.me/BIJZLI",
+      "tag": "a",
+      "text": "@BIJZLI"
+    },
+    {
+      "background": "#0a1220c7",
+      "box": {
+        "h": 501,
+        "w": 1280,
+        "x": 73,
+        "y": 469
+      },
+      "class": "selector card",
+      "color": "#edf4ff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "id": "browser",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 14,
+        "w": 292,
+        "x": 95,
+        "y": 500
+      },
+      "class": "step-text",
+      "color": "#d8ebff",
+      "depth": 6,
+      "font": "11.84px 700",
+      "id": "step-text",
+      "tag": "p",
+      "text": "STEP 1 OF 4"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 292,
+        "x": 95,
+        "y": 518
+      },
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "32px 700",
+      "id": "selector-title",
+      "tag": "h2",
+      "text": "Select your branch"
+    },
+    {
+      "background": "#0d1929db",
+      "box": {
+        "h": 47,
+        "w": 1235,
+        "x": 95,
+        "y": 568
+      },
+      "class": "status-note",
+      "color": "#aabed7",
+      "depth": 4,
+      "font": "14.4px 400",
+      "id": "status-note",
+      "role": "status",
+      "tag": "p",
+      "text": "Choose your engineering branch. 1,061 papers are available right now."
+    },
+    {
+      "box": {
+        "h": 314,
+        "w": 1235,
+        "x": 95,
+        "y": 633
+      },
+      "color": "#edf4ff",
+      "depth": 4,
+      "display": "block",
+      "font": "16px 400",
+      "id": "branch-section",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 22,
+        "w": 154,
+        "x": 95,
+        "y": 633
+      },
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "16.32px 700",
+      "tag": "h3",
+      "text": "Engineering branch"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 135,
+        "w": 300,
+        "x": 95,
+        "y": 666
+      },
+      "class": "branch-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "CE CIVIL ENGINEERING 1 provider · 84 papers 84 papers waiting"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 147,
+        "x": 161,
+        "y": 692
+      },
+      "color": "#edf4ff",
+      "depth": 8,
+      "font": "16px 700",
+      "tag": "h4",
+      "text": "CIVIL ENGINEERING"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 268,
+        "x": 111,
+        "y": 731
+      },
+      "class": "meta",
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "1 provider · 84 papers"
+    },
+    {
+      "box": {
+        "h": 14,
+        "w": 268,
+        "x": 111,
+        "y": 770
+      },
+      "class": "progress-text",
+      "color": "#aabed799",
+      "depth": 8,
+      "font": "11.84px 600",
+      "tag": "p",
+      "text": "84 papers waiting"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 135,
+        "w": 300,
+        "x": 407,
+        "y": 666
+      },
+      "class": "branch-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "CS COMPUTER SCIENCE ENGINEERING 3 providers · 467 papers 467 papers waiting"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 218,
+        "x": 472,
+        "y": 682
+      },
+      "color": "#edf4ff",
+      "depth": 8,
+      "font": "16px 700",
+      "tag": "h4",
+      "text": "COMPUTER SCIENCE ENGINEERING"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 268,
+        "x": 423,
+        "y": 732
+      },
+      "class": "meta",
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "3 providers · 467 papers"
+    },
+    {
+      "box": {
+        "h": 14,
+        "w": 268,
+        "x": 423,
+        "y": 771
+      },
+      "class": "progress-text",
+      "color": "#aabed799",
+      "depth": 8,
+      "font": "11.84px 600",
+      "tag": "p",
+      "text": "467 papers waiting"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 135,
+        "w": 300,
+        "x": 718,
+        "y": 666
+      },
+      "class": "branch-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "DA DATA SCIENCE AND ARTIFICIAL INTELLIGENCE 1 provider · 77 papers 77 papers waiting"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 218,
+        "x": 784,
+        "y": 682
+      },
+      "color": "#edf4ff",
+      "depth": 8,
+      "font": "16px 700",
+      "tag": "h4",
+      "text": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 268,
+        "x": 734,
+        "y": 732
+      },
+      "class": "meta",
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "1 provider · 77 papers"
+    },
+    {
+      "box": {
+        "h": 14,
+        "w": 268,
+        "x": 734,
+        "y": 771
+      },
+      "class": "progress-text",
+      "color": "#aabed799",
+      "depth": 8,
+      "font": "11.84px 600",
+      "tag": "p",
+      "text": "77 papers waiting"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 135,
+        "w": 300,
+        "x": 1030,
+        "y": 666
+      },
+      "class": "branch-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "EE ELECTRICAL ENGINEERING 2 providers · 238 papers 238 papers waiting"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 202,
+        "x": 1095,
+        "y": 692
+      },
+      "color": "#edf4ff",
+      "depth": 8,
+      "font": "16px 700",
+      "tag": "h4",
+      "text": "ELECTRICAL ENGINEERING"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 268,
+        "x": 1046,
+        "y": 731
+      },
+      "class": "meta",
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "2 providers · 238 papers"
+    },
+    {
+      "box": {
+        "h": 14,
+        "w": 268,
+        "x": 1046,
+        "y": 770
+      },
+      "class": "progress-text",
+      "color": "#aabed799",
+      "depth": 8,
+      "font": "11.84px 600",
+      "tag": "p",
+      "text": "238 papers waiting"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 135,
+        "w": 300,
+        "x": 95,
+        "y": 812
+      },
+      "class": "branch-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "EC ELECTRONICS ENGINEERING 1 provider · 98 papers 98 papers waiting"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 218,
+        "x": 161,
+        "y": 828
+      },
+      "color": "#edf4ff",
+      "depth": 8,
+      "font": "16px 700",
+      "tag": "h4",
+      "text": "ELECTRONICS ENGINEERING"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 268,
+        "x": 111,
+        "y": 878
+      },
+      "class": "meta",
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "1 provider · 98 papers"
+    },
+    {
+      "box": {
+        "h": 14,
+        "w": 268,
+        "x": 111,
+        "y": 917
+      },
+      "class": "progress-text",
+      "color": "#aabed799",
+      "depth": 8,
+      "font": "11.84px 600",
+      "tag": "p",
+      "text": "98 papers waiting"
+    },
+    {
+      "background": "#0f1b2eeb",
+      "box": {
+        "h": 135,
+        "w": 300,
+        "x": 407,
+        "y": 812
+      },
+      "class": "branch-card",
+      "color": "#edf4ff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "ME MECHANICAL ENGINEERING 1 provider · 97 papers 97 papers waiting"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 211,
+        "x": 472,
+        "y": 838
+      },
+      "color": "#edf4ff",
+      "depth": 8,
+      "font": "16px 700",
+      "tag": "h4",
+      "text": "MECHANICAL ENGINEERING"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 268,
+        "x": 423,
+        "y": 877
+      },
+      "class": "meta",
+      "color": "#aabed7",
+      "depth": 7,
+      "font": "13.12px 400",
+      "tag": "p",
+      "text": "1 provider · 97 papers"
+    },
+    {
+      "box": {
+        "h": 14,
+        "w": 268,
+        "x": 423,
+        "y": 916
+      },
+      "class": "progress-text",
+      "color": "#aabed799",
+      "depth": 8,
+      "font": "11.84px 600",
+      "tag": "p",
+      "text": "97 papers waiting"
+    },
+    {
+      "box": {
+        "h": 87,
+        "w": 1280,
+        "x": 73,
+        "y": 1010
+      },
+      "class": "site-footer",
+      "color": "#edf4ff",
+      "depth": 2,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "footer"
+    },
+    {
+      "box": {
+        "h": 22,
+        "w": 1238,
+        "x": 94,
+        "y": 1029
+      },
+      "color": "#aabed7",
+      "depth": 4,
+      "font": "13.76px 400",
+      "tag": "p",
+      "text": "BIJZLI Test Series - shared free for GATE and ESE aspirants. For any content issue, contact BIJZLI on Telegram first."
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 44,
+        "x": 717,
+        "y": 1031
+      },
+      "class": "brand-link",
+      "color": "#d8ebff",
+      "depth": 5,
+      "font": "13.76px 700",
+      "href": "https://t.me/BIJZLI",
+      "tag": "a",
+      "text": "BIJZLI"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 1238,
+        "x": 94,
+        "y": 1059
+      },
+      "class": "footer-fine",
+      "color": "#aabed799",
+      "depth": 4,
+      "font": "12.48px 400",
+      "tag": "p",
+      "text": "Not affiliated with any coaching institute."
+    }
+  ],
+  "page": {
+    "h": 1137,
+    "w": 1425
+  },
+  "text": "Skip to paper browser B BIJZLI TEST SERIES Search all test papers Type to search across all branches. Use arrow keys to move through results and Enter to open a paper. Ctrl K Dark Bright Green FREE FOREVER - NEVER PAY ANYONE FOR THIS BIJZLI Test Series Branch-wise GATE and ESE papers that run exactly like the real exam - question palette, countdown timer, on-screen calculator, submit flow, and a full score review with solutions. Browse branches Report a content issue 6 Branches 4 Providers 1,061 Papers 0 Opened by you STUDENT NOTICE This library is given away free. Do not fall into the trap of any seller. If someone tries to sell this content, report them on Telegram at @BIJZLI. STEP 1 OF 4 Select your branch Choose your engineering branch. 1,061 papers are available right now. Engineering branch CE CIVIL ENGINEERING 1 provider · 84 papers 84 papers waiting CS COMPUTER SCIENCE ENGINEERING 3 providers · 467 papers 467 papers waiting DA DATA SCIENCE AND ARTIFICIAL INTELLIGENCE 1 provider · 77 papers 77 papers waiting EE ELECTRICAL ENGINEERING 2 providers · 238 papers 238 papers waiting EC ELECTRONICS ENGINEERING 1 provider · 98 papers 98 papers waiting ME MECHANICAL ENGINEERING 1 provider · 97 papers 97 papers waiting BIJZLI Test Series - shared free for GATE and ESE aspirants. For any content issue, contact BIJZLI on Telegram first. Not affiliated with any coaching institute.",
+  "title": "BIJZLI Test Series",
+  "unreadable_stylesheets": 1,
+  "url": "http://127.0.0.1:52264/",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

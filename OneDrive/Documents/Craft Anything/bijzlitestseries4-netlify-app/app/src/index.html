@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BIJZLI Test Series</title>
+  <meta name="description" content="Free GATE and ESE test series for Civil, Computer Science, Data Science &amp; AI, Electrical, Electronics and Mechanical Engineering. 709 exam-style papers with timer, calculator, instant scoring and solutions.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#06111d">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BIJZLI Test Series">
+  <meta property="og:title" content="BIJZLI Test Series - Free GATE &amp; ESE Papers">
+  <meta property="og:description" content="709 branch-wise GATE and ESE papers with exam-style attempt pages, timer, calculator and instant scoring. Free forever.">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d1b2e'/%3E%3Cpath d='M20 16h13c6.6 0 10.5 3.3 10.5 8.6 0 3.4-1.8 5.9-4.7 7 3.8 1 6.2 3.8 6.2 7.9 0 5.8-4.3 9.5-11.5 9.5H20z' fill='none' stroke='%2378b5ff' stroke-width='4.5' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="data/series-manifest.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <script>
+    (function () {
+      var key = "bijzli-theme-v3";
+      var supported = { dark: true, bright: true, green: true };
+      var stored = "dark";
+      try {
+        stored = localStorage.getItem(key) || "dark";
+      } catch (_error) {}
+      var theme = supported[stored] ? stored : "dark";
+      document.documentElement.setAttribute("data-theme", theme);
+      window.__bijzliThemeKey = key;
+      window.__bijzliBootTheme = theme;
+    })();
+  </script>
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#browser">Skip to paper browser</a>
+
+  <header class="topbar stuck">
+    <div class="topbar-inner">
+      <a class="topbar-brand" href="#/" aria-label="BIJZLI Test Series home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-words">
+          <strong>BIJZLI</strong>
+          <span>Test Series</span>
+        </span>
+      </a>
+
+      <search class="search-shell" role="search">
+        <label class="sr-only" for="global-search">Search all test papers</label>
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+        </svg>
+        <input id="global-search" type="search" autocomplete="off" spellcheck="false" placeholder="Search 1,061 papers - subject, test number, year" aria-describedby="search-hint">
+        <p id="search-hint" class="sr-only">
+          Type to search across all branches. Use arrow keys to move through results and Enter to open a paper.
+        </p>
+        <kbd class="search-kbd" aria-hidden="true"><span class="kbd-mod">Ctrl</span>K</kbd>
+        <button id="search-clear" class="search-clear" type="button" hidden aria-label="Clear search">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+          </svg>
+        </button>
+      </search>
+
+      <div class="theme-corner" role="group" aria-label="Colour theme">
+        <button class="theme-btn active" type="button" data-theme="dark" aria-pressed="true" title="Dark theme">
+          <span class="theme-swatch theme-swatch-dark" aria-hidden="true"></span>
+          <span class="theme-label">Dark</span>
+        </button>
+        <button class="theme-btn" type="button" data-theme="bright" aria-pressed="false" title="Bright theme">
+          <span class="theme-swatch theme-swatch-bright" aria-hidden="true"></span>
+          <span class="theme-label">Bright</span>
+        </button>
+        <button class="theme-btn" type="button" data-theme="green" aria-pressed="false" title="Green theme">
+          <span class="theme-swatch theme-swatch-green" aria-hidden="true"></span>
+          <span class="theme-label">Green</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="hero card">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="dot" aria-hidden="true"></span>
+          Free forever - never pay anyone for this
+        </p>
+
+        <h1>
+          <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a>
+          Test Series
+        </h1>
+
+        <p class="subtitle">
+          Branch-wise GATE and ESE papers that run exactly like the real exam - question palette, countdown
+          timer, on-screen calculator, submit flow, and a full score review with solutions.
+        </p>
+
+        <div class="hero-actions">
+          <button id="cta-browse" class="primary-btn" type="button">
+            Browse branches
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </button>
+          <button id="cta-resume" class="ghost-btn" type="button" hidden>
+            Resume last paper
+          </button>
+          <a class="ghost-btn" href="https://t.me/BIJZLI" target="_blank" rel="noopener">
+            Report a content issue
+          </a>
+        </div>
+
+        <div class="stats" role="list">
+          <article class="stat-card" role="listitem">
+            <h2 id="branch-count">6</h2>
+            <p>Branches</p>
+          </article>
+          <article class="stat-card" role="listitem">
+            <h2 id="provider-count">4</h2>
+            <p>Providers</p>
+          </article>
+          <article class="stat-card" role="listitem">
+            <h2 id="test-count">1,061</h2>
+            <p>Papers</p>
+          </article>
+          <article class="stat-card stat-card-you" role="listitem">
+            <h2 id="opened-count">0</h2>
+            <p>Opened by you</p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="support-banner">
+        <span class="support-label">Student notice</span>
+        <p>
+          This library is given away free. Do not fall into the trap of any seller.
+          If someone tries to sell this content, report them on Telegram at
+          <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">@BIJZLI</a>.
+        </p>
+      </aside>
+    </section>
+
+    <section id="activity-card" class="activity card" aria-labelledby="activity-title" hidden>
+      <div class="activity-top">
+        <div>
+          <p class="eyebrow eyebrow-plain">Your progress</p>
+          <h2 id="activity-title">Pick up where you left off</h2>
+        </div>
+        <button id="clear-activity" class="ghost-btn ghost-btn-sm" type="button">Clear history</button>
+      </div>
+
+      <div class="kpi-row" id="kpi-row"></div>
+
+      <div class="tabs" role="tablist" aria-label="Activity view">
+        <button class="tab" type="button" role="tab" data-tab="continue" aria-selected="true">
+          Continue <span class="tab-count" data-count="continue">0</span>
+        </button>
+        <button class="tab" type="button" role="tab" data-tab="saved" aria-selected="false">
+          Saved <span class="tab-count" data-count="saved">0</span>
+        </button>
+        <button class="tab" type="button" role="tab" data-tab="scores" aria-selected="false">
+          Scored <span class="tab-count" data-count="scores">0</span>
+        </button>
+      </div>
+
+      <div id="activity-list" class="activity-list" role="tabpanel"></div>
+    </section>
+
+    <section id="browser" class="selector card" aria-labelledby="selector-title" tabindex="-1">
+      <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
+
+      <div class="selector-top">
+        <div>
+          <p class="step-text" id="step-text">Step 1 of 4</p>
+          <h2 id="selector-title">Select your branch</h2>
+        </div>
+        <button id="reset-btn" class="ghost-btn" type="button" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"></path></svg>
+          Back
+        </button>
+      </div>
+
+      <p id="status-note" class="status-note" role="status" aria-live="polite">Choose your engineering branch. 1,061 papers are available right now.</p>
+
+      <div id="skeleton" class="skeleton-grid" aria-hidden="true" hidden>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+
+      <section id="search-section" class="hidden" aria-label="Search results">
+        <div class="section-head">
+          <h3 id="search-heading">Search results</h3>
+          <p id="search-count" class="result-count"></p>
+        </div>
+        <div id="search-results" class="tests-list"></div>
+        <button id="search-more" class="ghost-btn ghost-btn-wide" type="button" hidden></button>
+      </section>
+
+      <section id="branch-section">
+        <div class="section-head">
+          <h3>Engineering branch</h3>
+        </div>
+        <div id="branch-grid" class="branch-grid">
+          <button class="branch-card" type="button" style="--card-accent: hsl(25 72% 58%);">
+            <div class="card-head"><span class="code-badge">CE</span><h4>CIVIL ENGINEERING</h4></div>
+            <p class="meta">1 provider · 84 papers</p>
+            <div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">84 papers waiting</p></div>
+          </button>
+          <button class="branch-card" type="button" style="--card-accent: hsl(265 72% 58%);">
+            <div class="card-head"><span class="code-badge">CS</span><h4>COMPUTER SCIENCE ENGINEERING</h4></div>
+            <p class="meta">3 providers · 467 papers</p>
+            <div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">467 papers waiting</p></div>
+          </button>
+          <button class="branch-card" type="button" style="--card-accent: hsl(192 72% 58%);">
+            <div class="card-head"><span class="code-badge">DA</span><h4>DATA SCIENCE AND ARTIFICIAL INTELLIGENCE</h4></div>
+            <p class="meta">1 provider · 77 papers</p>
+            <div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">77 papers waiting</p></div>
+          </button>
+          <button class="branch-card" type="button" style="--card-accent: hsl(45 72% 58%);">
+            <div class="card-head"><span class="code-badge">EE</span><h4>ELECTRICAL ENGINEERING</h4></div>
+            <p class="meta">2 providers · 238 papers</p>
+            <div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">238 papers waiting</p></div>
+          </button>
+          <button class="branch-card" type="button" style="--card-accent: hsl(212 72% 58%);">
+            <div class="card-head"><span class="code-badge">EC</span><h4>ELECTRONICS ENGINEERING</h4></div>
+            <p class="meta">1 provider · 98 papers</p>
+            <div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">98 papers waiting</p></div>
+          </button>
+          <button class="branch-card" type="button" style="--card-accent: hsl(340 72% 58%);">
+            <div class="card-head"><span class="code-badge">ME</span><h4>MECHANICAL ENGINEERING</h4></div>
+            <p class="meta">1 provider · 97 papers</p>
+            <div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">97 papers waiting</p></div>
+          </button>
+        </div>
+      </section>
+
+      <section id="provider-section" class="hidden">
+        <div class="section-head">
+          <h3>Test series provider</h3>
+        </div>
+        <div id="provider-grid" class="provider-grid"></div>
+      </section>
+
+      <section id="series-section" class="hidden">
+        <div class="section-head">
+          <h3>Batch / year</h3>
+        </div>
+        <div id="series-grid" class="series-grid"></div>
+      </section>
+
+      <section id="tests-section" class="hidden">
+        <div class="section-head tests-top">
+          <h3>Test papers</h3>
+          <div class="tests-tools">
+            <label class="sr-only" for="filter-input">Filter papers in this batch</label>
+            <input id="filter-input" type="search" autocomplete="off" placeholder="Filter this batch">
+            <label class="sr-only" for="sort-select">Sort papers</label>
+            <select id="sort-select">
+              <option value="default">Series order</option>
+              <option value="az">Title A to Z</option>
+              <option value="za">Title Z to A</option>
+              <option value="score">Best score first</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="filter-chips" class="chip-wrap" role="group" aria-label="Filter by paper type"></div>
+        <div id="year-chips" class="chip-wrap chip-wrap-sub" role="group" aria-label="Filter by exam year"></div>
+
+        <div class="tests-meta">
+          <p id="result-count" class="result-count"></p>
+          <label class="toggle">
+            <input id="hide-done" type="checkbox">
+            <span>Hide papers I already opened</span>
+          </label>
+        </div>
+
+        <div id="tests-list" class="tests-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        <strong>BIJZLI Test Series</strong> - shared free for GATE and ESE aspirants.
+        For any content issue, contact
+        <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a> on Telegram first.
+      </p>
+      <p class="footer-fine">Not affiliated with any coaching institute.</p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

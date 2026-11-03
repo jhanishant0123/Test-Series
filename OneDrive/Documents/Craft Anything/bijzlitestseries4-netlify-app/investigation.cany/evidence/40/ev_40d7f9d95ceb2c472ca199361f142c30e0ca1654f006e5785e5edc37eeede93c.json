@@ -1,0 +1,221 @@
+{
+  "id": "ev_40d7f9d95ceb2c472ca199361f142c30e0ca1654f006e5785e5edc37eeede93c",
+  "subject": {
+    "kind": "website",
+    "name": "https://bijzlitestseries4.netlify.app/"
+  },
+  "operation": "web_page_watch",
+  "params": {
+    "endpoint": "http://127.0.0.1:56611",
+    "sensitive_value_declarations": 0
+  },
+  "result": {
+    "accessibility": null,
+    "console": {
+      "count": 0,
+      "entries": [],
+      "has_text": false
+    },
+    "dom": {
+      "attribute_names": [
+        "action",
+        "aria-controls",
+        "aria-describedby",
+        "aria-expanded",
+        "aria-hidden",
+        "aria-label",
+        "aria-labelledby",
+        "aria-live",
+        "aria-pressed",
+        "aria-selected",
+        "as",
+        "async",
+        "autocomplete",
+        "charset",
+        "class",
+        "content",
+        "crossorigin",
+        "cx",
+        "cy",
+        "d",
+        "data-account-tier",
+        "data-app-host",
+        "data-count",
+        "data-netlify-site-id",
+        "data-nf-variant",
+        "data-nl-ready",
+        "data-tab",
+        "data-theme",
+        "defer",
+        "enterkeyhint",
+        "fill",
+        "for",
+        "height",
+        "hidden",
+        "href",
+        "id",
+        "lang",
+        "maxlength",
+        "method",
+        "name",
+        "placeholder",
+        "property",
+        "r",
+        "rel",
+        "required",
+        "role",
+        "rows",
+        "spellcheck",
+        "src",
+        "srcdoc",
+        "stroke",
+        "stroke-linecap",
+        "stroke-linejoin",
+        "stroke-width",
+        "style",
+        "tabindex",
+        "target",
+        "title",
+        "type",
+        "value",
+        "viewbox",
+        "width",
+        "x1",
+        "x2",
+        "y1",
+        "y2"
+      ],
+      "elements_by_name": {
+        "a": 7,
+        "article": 4,
+        "aside": 1,
+        "body": 2,
+        "button": 21,
+        "circle": 1,
+        "div": 57,
+        "em": 1,
+        "footer": 1,
+        "form": 1,
+        "g": 1,
+        "h1": 1,
+        "h2": 7,
+        "h3": 5,
+        "h4": 6,
+        "head": 2,
+        "header": 1,
+        "html": 2,
+        "iframe": 1,
+        "input": 8,
+        "kbd": 1,
+        "label": 4,
+        "line": 3,
+        "link": 6,
+        "main": 1,
+        "meta": 12,
+        "nav": 1,
+        "option": 4,
+        "p": 28,
+        "path": 11,
+        "script": 4,
+        "search": 1,
+        "section": 9,
+        "select": 1,
+        "span": 34,
+        "strong": 2,
+        "style": 1,
+        "svg": 7,
+        "textarea": 1,
+        "title": 1
+      },
+      "text_nodes": 95,
+      "total_nodes": 362,
+      "truncated": false
+    },
+    "dropped_events": 0,
+    "frame_origins": [
+      "about:srcdoc",
+      "https://bijzlitestseries4.netlify.app"
+    ],
+    "network": {
+      "request_count": 0,
+      "requests": []
+    },
+    "origin": "https://bijzlitestseries4.netlify.app/",
+    "resources": [
+      {
+        "mime_type": "font/woff2",
+        "type": "Font",
+        "url": "https://fonts.gstatic.com/s/sora/v17/xMQ9uFFYT72X5wkB_18qmnndmSdSnh2BAfO5mnuyOo1lfiQwV6-x.woff2"
+      },
+      {
+        "mime_type": "application/javascript",
+        "type": "Script",
+        "url": "https://bijzlitestseries4.netlify.app/assets/app.js?v=20260812-portal"
+      },
+      {
+        "mime_type": "font/woff2",
+        "type": "Font",
+        "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSg.woff2"
+      }
+    ],
+    "scripts": [
+      {
+        "length": 528,
+        "source_map_url": null,
+        "url": "https://bijzlitestseries4.netlify.app/"
+      },
+      {
+        "length": 47178,
+        "source_map_url": null,
+        "url": "https://bijzlitestseries4.netlify.app/assets/app.js?v=20260812-portal"
+      },
+      {
+        "length": 35727,
+        "source_map_url": null,
+        "url": "https://bijzlitestseries4.netlify.app/.netlify/scripts/hud?variant=public"
+      },
+      {
+        "length": 2353,
+        "source_map_url": null,
+        "url": "about:srcdoc"
+      }
+    ],
+    "scripts_truncated": false,
+    "secret_redactions": 0,
+    "storage_keys": null,
+    "watch_ms": 10000,
+    "websockets": {
+      "connections": [],
+      "frames": []
+    }
+  },
+  "summary": "Watched https://bijzlitestseries4.netlify.app/ for 10000ms: 0 request outline(s), 0 console entr(y/ies).",
+  "confidence": "observed",
+  "authority": "earlier-record",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "passive_snapshot",
+      "message": "A passive observation of one moment in a live page; it shows what happened during the window, not everything the page can do."
+    },
+    {
+      "code": "values_not_kept",
+      "message": "Cookies, authorization headers and storage values are never kept; JSON bodies are reduced to outlines and declared secrets are redacted."
+    }
+  ],
+  "coverage": {
+    "status": "partial"
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "https://bijzlitestseries4.netlify.app/"
+    }
+  ],
+  "links": []
+}

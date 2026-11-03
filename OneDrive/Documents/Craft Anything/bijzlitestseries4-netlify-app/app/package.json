@@ -1,0 +1,12 @@
+{
+  "name": "bijzli-test-series",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static rebuild of the BIJZLI Test Series paper library",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

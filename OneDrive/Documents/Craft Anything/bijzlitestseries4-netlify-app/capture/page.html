@@ -1,0 +1,424 @@
+<html lang="en" data-theme="dark"><head>
+  <meta charset="utf-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=a14fdf90-65a4-4129-a817-456b6a5131db
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BIJZLI Test Series</title>
+  <meta name="description" content="Free GATE and ESE test series for Civil, Computer Science, Data Science &amp; AI, Electrical, Electronics and Mechanical Engineering. 709 exam-style papers with timer, calculator, instant scoring and solutions.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#06111d">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BIJZLI Test Series">
+  <meta property="og:title" content="BIJZLI Test Series - Free GATE &amp; ESE Papers">
+  <meta property="og:description" content="709 branch-wise GATE and ESE papers with exam-style attempt pages, timer, calculator and instant scoring. Free forever.">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d1b2e'/%3E%3Cpath d='M20 16h13c6.6 0 10.5 3.3 10.5 8.6 0 3.4-1.8 5.9-4.7 7 3.8 1 6.2 3.8 6.2 7.9 0 5.8-4.3 9.5-11.5 9.5H20z' fill='none' stroke='%2378b5ff' stroke-width='4.5' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="data/series-manifest.json" as="fetch" crossorigin="">
+  <link rel="stylesheet" href="assets/styles.css?v=20260812-portal">
+
+  <script>
+    // Applied before first paint so the page never flashes the wrong theme.
+    (function () {
+      var key = "bijzli-theme-v3";
+      var supported = { dark: true, bright: true, green: true };
+      var stored = "dark";
+
+      try {
+        stored = localStorage.getItem(key) || "dark";
+      } catch (_error) {}
+
+      var theme = supported[stored] ? stored : "dark";
+      document.documentElement.setAttribute("data-theme", theme);
+      window.__bijzliThemeKey = key;
+      window.__bijzliBootTheme = theme;
+    })();
+  </script>
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#browser">Skip to paper browser</a>
+
+  <header class="topbar stuck">
+    <div class="topbar-inner">
+      <a class="topbar-brand" href="#/" aria-label="BIJZLI Test Series home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-words">
+          <strong>BIJZLI</strong>
+          <span>Test Series</span>
+        </span>
+      </a>
+
+      <search class="search-shell" role="search">
+        <label class="sr-only" for="global-search">Search all test papers</label>
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+        </svg>
+        <input id="global-search" type="search" autocomplete="off" spellcheck="false" placeholder="Search 1,061 papers - subject, test number, year" aria-describedby="search-hint">
+        <p id="search-hint" class="sr-only">
+          Type to search across all branches. Use arrow keys to move through results and Enter to open a paper.
+        </p>
+        <kbd class="search-kbd" aria-hidden="true"><span class="kbd-mod">Ctrl</span>K</kbd>
+        <button id="search-clear" class="search-clear" type="button" hidden="" aria-label="Clear search">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+          </svg>
+        </button>
+      </search>
+
+      <div class="theme-corner" role="group" aria-label="Colour theme">
+        <button class="theme-btn active" type="button" data-theme="dark" aria-pressed="true" title="Dark theme">
+          <span class="theme-swatch theme-swatch-dark" aria-hidden="true"></span>
+          <span class="theme-label">Dark</span>
+        </button>
+        <button class="theme-btn" type="button" data-theme="bright" aria-pressed="false" title="Bright theme">
+          <span class="theme-swatch theme-swatch-bright" aria-hidden="true"></span>
+          <span class="theme-label">Bright</span>
+        </button>
+        <button class="theme-btn" type="button" data-theme="green" aria-pressed="false" title="Green theme">
+          <span class="theme-swatch theme-swatch-green" aria-hidden="true"></span>
+          <span class="theme-label">Green</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="hero card">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="dot" aria-hidden="true"></span>
+          Free forever - never pay anyone for this
+        </p>
+
+        <h1>
+          <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a>
+          Test Series
+        </h1>
+
+        <p class="subtitle">
+          Branch-wise GATE and ESE papers that run exactly like the real exam - question palette, countdown
+          timer, on-screen calculator, submit flow, and a full score review with solutions.
+        </p>
+
+        <div class="hero-actions">
+          <button id="cta-browse" class="primary-btn" type="button">
+            Browse branches
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </button>
+          <button id="cta-resume" class="ghost-btn" type="button" hidden="">
+            Resume last paper
+          </button>
+          <a class="ghost-btn" href="https://t.me/BIJZLI" target="_blank" rel="noopener">
+            Report a content issue
+          </a>
+        </div>
+
+        <div class="stats" role="list">
+          <article class="stat-card" role="listitem">
+            <h2 id="branch-count">6</h2>
+            <p>Branches</p>
+          </article>
+          <article class="stat-card" role="listitem">
+            <h2 id="provider-count">4</h2>
+            <p>Providers</p>
+          </article>
+          <article class="stat-card" role="listitem">
+            <h2 id="test-count">1,061</h2>
+            <p>Papers</p>
+          </article>
+          <article class="stat-card stat-card-you" role="listitem">
+            <h2 id="opened-count">0</h2>
+            <p>Opened by you</p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="support-banner">
+        <span class="support-label">Student notice</span>
+        <p>
+          This library is given away free. Do not fall into the trap of any seller.
+          If someone tries to sell this content, report them on Telegram at
+          <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">@BIJZLI</a>.
+        </p>
+      </aside>
+    </section>
+
+    <section id="activity-card" class="activity card" aria-labelledby="activity-title" hidden="">
+      <div class="activity-top">
+        <div>
+          <p class="eyebrow eyebrow-plain">Your progress</p>
+          <h2 id="activity-title">Pick up where you left off</h2>
+        </div>
+        <button id="clear-activity" class="ghost-btn ghost-btn-sm" type="button">Clear history</button>
+      </div>
+
+      <div class="kpi-row" id="kpi-row"></div>
+
+      <div class="tabs" role="tablist" aria-label="Activity view">
+        <button class="tab" type="button" role="tab" data-tab="continue" aria-selected="true">
+          Continue <span class="tab-count" data-count="continue">0</span>
+        </button>
+        <button class="tab" type="button" role="tab" data-tab="saved" aria-selected="false">
+          Saved <span class="tab-count" data-count="saved">0</span>
+        </button>
+        <button class="tab" type="button" role="tab" data-tab="scores" aria-selected="false">
+          Scored <span class="tab-count" data-count="scores">0</span>
+        </button>
+      </div>
+
+      <div id="activity-list" class="activity-list" role="tabpanel"></div>
+    </section>
+
+    <section id="browser" class="selector card" aria-labelledby="selector-title" tabindex="-1">
+      <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
+
+      <div class="selector-top">
+        <div>
+          <p class="step-text" id="step-text">Step 1 of 4</p>
+          <h2 id="selector-title">Select your branch</h2>
+        </div>
+        <button id="reset-btn" class="ghost-btn" type="button" hidden="">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"></path></svg>
+          Back
+        </button>
+      </div>
+
+      <p id="status-note" class="status-note" role="status" aria-live="polite">Choose your engineering branch. 1,061 papers are available right now.</p>
+
+      <div id="skeleton" class="skeleton-grid" aria-hidden="true" hidden="">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+
+      <section id="search-section" class="hidden" aria-label="Search results">
+        <div class="section-head">
+          <h3 id="search-heading">Search results</h3>
+          <p id="search-count" class="result-count"></p>
+        </div>
+        <div id="search-results" class="tests-list"></div>
+        <button id="search-more" class="ghost-btn ghost-btn-wide" type="button" hidden=""></button>
+      </section>
+
+      <section id="branch-section" class="">
+        <div class="section-head">
+          <h3>Engineering branch</h3>
+        </div>
+        <div id="branch-grid" class="branch-grid"><button class="branch-card" type="button" style="--card-accent: hsl(25 72% 58%);"><div class="card-head"><span class="code-badge">CE</span><h4>CIVIL ENGINEERING</h4></div><p class="meta">1 provider · 84 papers</p><div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">84 papers waiting</p></div></button><button class="branch-card" type="button" style="--card-accent: hsl(265 72% 58%);"><div class="card-head"><span class="code-badge">CS</span><h4>COMPUTER SCIENCE ENGINEERING</h4></div><p class="meta">3 providers · 467 papers</p><div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">467 papers waiting</p></div></button><button class="branch-card" type="button" style="--card-accent: hsl(192 72% 58%);"><div class="card-head"><span class="code-badge">DA</span><h4>DATA SCIENCE AND ARTIFICIAL INTELLIGENCE</h4></div><p class="meta">1 provider · 77 papers</p><div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">77 papers waiting</p></div></button><button class="branch-card" type="button" style="--card-accent: hsl(45 72% 58%);"><div class="card-head"><span class="code-badge">EE</span><h4>ELECTRICAL ENGINEERING</h4></div><p class="meta">2 providers · 238 papers</p><div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">238 papers waiting</p></div></button><button class="branch-card" type="button" style="--card-accent: hsl(212 72% 58%);"><div class="card-head"><span class="code-badge">EC</span><h4>ELECTRONICS ENGINEERING</h4></div><p class="meta">1 provider · 98 papers</p><div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">98 papers waiting</p></div></button><button class="branch-card" type="button" style="--card-accent: hsl(340 72% 58%);"><div class="card-head"><span class="code-badge">ME</span><h4>MECHANICAL ENGINEERING</h4></div><p class="meta">1 provider · 97 papers</p><div class="progress"><div class="progress-track"><span class="progress-fill" style="width: 0%;"></span></div><p class="progress-text">97 papers waiting</p></div></button></div>
+      </section>
+
+      <section id="provider-section" class="hidden">
+        <div class="section-head">
+          <h3>Test series provider</h3>
+        </div>
+        <div id="provider-grid" class="provider-grid"></div>
+      </section>
+
+      <section id="series-section" class="hidden">
+        <div class="section-head">
+          <h3>Batch / year</h3>
+        </div>
+        <div id="series-grid" class="series-grid"></div>
+      </section>
+
+      <section id="tests-section" class="hidden">
+        <div class="section-head tests-top">
+          <h3>Test papers</h3>
+          <div class="tests-tools">
+            <label class="sr-only" for="filter-input">Filter papers in this batch</label>
+            <input id="filter-input" type="search" autocomplete="off" placeholder="Filter this batch">
+            <label class="sr-only" for="sort-select">Sort papers</label>
+            <select id="sort-select">
+              <option value="default">Series order</option>
+              <option value="az">Title A to Z</option>
+              <option value="za">Title Z to A</option>
+              <option value="score">Best score first</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="filter-chips" class="chip-wrap" role="group" aria-label="Filter by paper type"></div>
+        <div id="year-chips" class="chip-wrap chip-wrap-sub" role="group" aria-label="Filter by exam year"></div>
+
+        <div class="tests-meta">
+          <p id="result-count" class="result-count"></p>
+          <label class="toggle">
+            <input id="hide-done" type="checkbox">
+            <span>Hide papers I already opened</span>
+          </label>
+        </div>
+
+        <div id="tests-list" class="tests-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        <strong>BIJZLI Test Series</strong> - shared free for GATE and ESE aspirants.
+        For any content issue, contact
+        <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a> on Telegram first.
+      </p>
+      <p class="footer-fine">Not affiliated with any coaching institute.</p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js?v=20260812-portal" defer=""></script>
+
+
+<script async="" src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="a14fdf90-65a4-4129-a817-456b6a5131db" data-app-host="app.netlify.com" data-account-tier="free"></script>
+<iframe id="nl-badge-frame" title="Powered by Netlify" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;color-scheme&quot; content=&quot;dark&quot;&gt;&lt;style&gt;
+    :root{--nl-vw:1440px;--nl-vh:900px}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:transparent;overflow:hidden}
+    body{display:flex;align-items:flex-end;justify-content:flex-end;height:100vh;
+      padding:8px 18px 18px 8px;
+      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5;color:#f4f9f9;-webkit-font-smoothing:antialiased}
+    .nl-wrap{display:flex;flex-direction:column;align-items:flex-end;gap:10px;width:max-content;max-width:calc(var(--nl-vw,100vw) - 26px)}
+    button{font-family:inherit;cursor:pointer}
+    :focus-visible{outline:2px solid #32e6e2;outline-offset:2px;border-radius:6px}
+    .nl-icon-btn{position:relative;flex:none;width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px;border:1px solid transparent;background:transparent;color:#d5e3e6;transition:background .15s ease,color .15s ease}
+    .nl-icon-btn:hover{background:rgba(255,255,255,0.08);color:#f4f9f9}
+    .nl-tap::after{content:&quot;&quot;;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+      width:max(100%,44px);height:max(100%,44px)}
+    @keyframes nl-rise{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:none}}
+    @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition:none!important}}
+  
+      .nl-card{position:relative;display:none;width:min(340px,calc(var(--nl-vw,100vw) - 26px));max-height:calc(var(--nl-vh,100vh) - 84px);overflow-y:auto;background:linear-gradient(180deg,#132832 0%,#0e1e25 100%);border:1px solid rgba(255,255,255,0.09);border-radius:18px;padding:18px;transform-origin:bottom right;animation:nl-rise .3s cubic-bezier(.34,1.4,.4,1) both}
+      .nl-card.open{display:block}
+      .nl-card-close{position:absolute;top:10px;right:10px}
+      .nl-card h2{margin:0;padding-right:30px;font-size:16px;font-weight:750;letter-spacing:-0.015em;line-height:1.35}
+      .nl-card h2 em{font-style:normal;background:linear-gradient(90deg,#32e6e2,#4d7cfe,#9a6bff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+      .nl-card p{margin:8px 0 0;font-size:12.5px;color:#d5e3e6}
+      .nl-prompt{position:relative;margin-top:14px;background:#10222b;border:1px solid rgba(255,255,255,0.09);border-radius:14px;padding:10px 12px;transition:border-color .15s ease,box-shadow .15s ease}
+      .nl-prompt:focus-within{border-color:#05bdba;box-shadow:0 0 0 3px rgba(5,189,186,0.18)}
+      .nl-prompt textarea{display:block;width:100%;height:38px;resize:none;border:0;outline:none;background:transparent;color:#f4f9f9;font:inherit;font-size:13px;line-height:19px;padding:0 28px 0 0}
+      .nl-prompt textarea::placeholder{color:#a9bdc2}
+      .nl-send{position:absolute;right:9px;bottom:9px;width:24px;height:24px;flex:none;display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:50%;background:#05bdba;color:#02191b;transition:background .15s ease}
+      .nl-send:hover{background:#32e6e2}
+      @media (pointer: coarse){
+        .nl-prompt textarea{font-size:16px;line-height:21px;height:42px}
+      }
+      .nl-or{display:flex;align-items:center;gap:10px;margin:12px 0;font-size:10.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a9bdc2}
+      .nl-or::before,.nl-or::after{content:&quot;&quot;;flex:1;height:1px;background:rgba(255,255,255,0.09)}
+      .nl-drop{display:flex;align-items:center;justify-content:space-between;gap:6px;text-decoration:none;background:#1b3a45;border:1px solid rgba(255,255,255,0.09);border-radius:10px;padding:10px 12px;font-size:13px;font-weight:600;color:#cfe0e3;transition:background .15s ease,color .15s ease,border-color .15s ease}
+      .nl-drop:hover{background:#224753;color:#f4f9f9;border-color:rgba(50,230,226,0.3)}
+      .nl-drop .nl-arrow{transition:transform .18s cubic-bezier(.34,1.4,.4,1)}
+      .nl-drop:hover .nl-arrow{transform:translateX(3px)}
+      .nl-badge{display:flex;align-items:center;gap:9px;white-space:nowrap;border:1px solid rgba(255,255,255,0.09);background:linear-gradient(180deg,#142b34,#0e1e25);color:#f4f9f9;border-radius:999px;padding:9px 14px 9px 11px;font-size:13px;font-weight:600;letter-spacing:0.01em;transition:border-color .2s ease}
+      .nl-badge:hover{border-color:rgba(50,230,226,0.26)}
+      .nl-hide{display:block;width:100%;margin-top:10px;border:0;background:transparent;color:#a9bdc2;font-size:11.5px;font-weight:600;padding:4px;border-radius:8px;transition:color .15s ease}
+      .nl-hide:hover{color:#d5e3e6;text-decoration:underline}
+      .nl-badge-label{color:#d5e3e6;font-weight:500}
+      .nl-badge-brand{font-weight:750}
+    &lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+      &lt;div class=&quot;nl-wrap&quot;&gt;
+        &lt;section class=&quot;nl-card&quot; id=&quot;nl-card&quot; aria-label=&quot;Build your own site on Netlify&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;nl-icon-btn nl-tap nl-card-close&quot; id=&quot;nl-card-close&quot; aria-label=&quot;Close&quot;&gt;&lt;svg width=&quot;14&quot; height=&quot;14&quot; viewBox=&quot;0 0 16 16&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;1.9&quot; stroke-linecap=&quot;round&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M4.5 4.5 11.5 11.5M11.5 4.5 4.5 11.5&quot;/&gt;&lt;/svg&gt;&lt;/button&gt;
+          &lt;h2&gt;&lt;em&gt;Build your own site with Netlify&lt;/em&gt;&lt;/h2&gt;
+          &lt;p&gt;Describe what you want, and an AI agent designs, builds and deploys it in minutes.&lt;/p&gt;
+          &lt;form class=&quot;nl-prompt&quot; action=&quot;https://app.netlify.com/start&quot; method=&quot;get&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;textarea name=&quot;prompt&quot; rows=&quot;2&quot; required maxlength=&quot;300&quot; autocomplete=&quot;off&quot;
+                      enterkeyhint=&quot;go&quot;
+                      placeholder=&quot;A shop for my handmade surfboards&amp;hellip;&quot;
+                      aria-label=&quot;Describe the site you want to build&quot;&gt;&lt;/textarea&gt;
+            &lt;button type=&quot;submit&quot; class=&quot;nl-send nl-tap&quot; aria-label=&quot;Build this site&quot;&gt;&lt;svg width=&quot;13&quot; height=&quot;13&quot; viewBox=&quot;0 0 16 16&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;1.8&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M8 12.75v-9.5M3.9 7.35 8 3.25l4.1 4.1&quot;/&gt;&lt;/svg&gt;&lt;/button&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;utm_source&quot; value=&quot;netlify_badge&quot;&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;utm_campaign&quot; value=&quot;loops&quot;&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;utm_medium&quot; value=&quot;owned&quot;&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;utm_content&quot; value=&quot;prompt&quot;&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;utm_id&quot; value=&quot;a14fdf90-65a4-4129-a817-456b6a5131db&quot;&gt;
+            
+          &lt;/form&gt;
+          &lt;div class=&quot;nl-or&quot;&gt;&lt;span&gt;or&lt;/span&gt;&lt;/div&gt;
+          &lt;a class=&quot;nl-drop&quot; href=&quot;https://app.netlify.com/drop?utm_source=netlify_badge&amp;utm_campaign=loops&amp;utm_medium=owned&amp;utm_content=drop&amp;utm_id=a14fdf90-65a4-4129-a817-456b6a5131db&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+            &lt;span&gt;Drop a site you already have&lt;/span&gt;&lt;span class=&quot;nl-arrow&quot; aria-hidden=&quot;true&quot;&gt;&amp;rarr;&lt;/span&gt;
+          &lt;/a&gt;
+          
+        &lt;/section&gt;
+        &lt;button type=&quot;button&quot; class=&quot;nl-badge&quot; id=&quot;nl-badge&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;nl-card&quot;
+                aria-label=&quot;Powered by Netlify — build your own site&quot;&gt;
+          &lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 32 32&quot; fill=&quot;none&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;path fill=&quot;#fff&quot; d=&quot;M17.9922 18.3225H14.005L13.6746 17.9921V14.005L14.005 13.6746H17.9922L18.3226 14.005V17.9921L17.9922 18.3225Z&quot;/&gt;
+    &lt;g fill=&quot;#05BDBA&quot;&gt;
+      &lt;path d=&quot;M9.6958 24.3311H9.35705L7.6661 22.6401V22.3041L10.2511 19.7164L12.042 19.7191L12.2808 19.9552V21.7461L9.6958 24.3311Z&quot;/&gt;
+      &lt;path d=&quot;M7.6661 9.69576V9.35701L9.35705 7.66606H9.6958L12.2808 10.2511V12.0392L12.042 12.2808H10.2511L7.6661 9.69576Z&quot;/&gt;
+      &lt;path d=&quot;M10.0457 17.4369H0.205466L0 17.2314V14.7658L0.205466 14.5603H10.0457L10.2511 14.7658V17.2314L10.0457 17.4369Z&quot;/&gt;
+      &lt;path d=&quot;M31.7945 17.4369H21.9544L21.7489 17.2314V14.7658L21.9544 14.5603H31.7945L32 14.7658V17.2314L31.7945 17.4369Z&quot;/&gt;
+      &lt;path d=&quot;M14.5631 10.0456V2.66547L14.7686 2.46001H17.2343L17.4396 2.66547V10.0456L17.2343 10.2511H14.7686L14.5631 10.0456Z&quot;/&gt;
+      &lt;path d=&quot;M14.5631 29.3316V21.9515L14.7686 21.746H17.2343L17.4396 21.9515V29.3316L17.2343 29.5371H14.7686L14.5631 29.3316Z&quot;/&gt;
+    &lt;/g&gt;&lt;/svg&gt;
+          &lt;span&gt;&lt;span class=&quot;nl-badge-label&quot;&gt;Powered by&lt;/span&gt; &lt;span class=&quot;nl-badge-brand&quot;&gt;Netlify&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;script&gt;
+        
+    function nlSend(){
+      var wrap=document.querySelector('.nl-wrap'),boxes=[];
+      for(var i=0;i&lt;wrap.children.length;i++){
+        var c=wrap.children[i];
+        if(!c.offsetWidth||!c.offsetHeight)continue;
+        boxes.push({x:c.offsetLeft-wrap.offsetLeft+8,
+                    y:c.offsetTop-wrap.offsetTop+8,
+                    w:c.offsetWidth,h:c.offsetHeight});
+      }
+      parent.postMessage({nlHud:'resize',
+        width:wrap.offsetWidth+26,
+        height:wrap.offsetHeight+26,
+        boxes:boxes},'*');
+    }
+    function nlSendSoon(){requestAnimationFrame(nlSend);}
+    window.addEventListener('load',nlSend);
+    window.addEventListener('message',function(e){
+      if(e.source!==parent||!e.data||e.data.nlHud!=='viewport')return;
+      var s=document.documentElement.style;
+      s.setProperty('--nl-vw',e.data.w+'px');
+      s.setProperty('--nl-vh',e.data.h+'px');
+      document.documentElement.classList.toggle('nl-narrow',e.data.w&lt;600);
+      nlSendSoon();
+    });
+    var nlCoarse=window.matchMedia('(pointer: coarse)').matches;
+    function nlSubmit(form){
+      if(form.requestSubmit)return form.requestSubmit();
+      if(form.checkValidity&amp;&amp;!form.checkValidity())
+        return form.reportValidity&amp;&amp;form.reportValidity();
+      form.submit();
+    }
+  
+        var badge=document.getElementById('nl-badge'),card=document.getElementById('nl-card'),
+            box=card.querySelector('textarea');
+        function setOpen(open){
+          card.classList.toggle('open',open);
+          badge.setAttribute('aria-expanded',open?'true':'false');
+          nlSendSoon();
+          if(open&amp;&amp;!nlCoarse)box.focus();
+        }
+        box.addEventListener('keydown',function(e){
+          if(e.key==='Enter'&amp;&amp;!e.shiftKey){e.preventDefault();nlSubmit(box.form);}
+        });
+        badge.addEventListener('click',function(){setOpen(!card.classList.contains('open'));});
+        document.getElementById('nl-card-close').addEventListener('click',function(){setOpen(false);badge.focus();});
+        document.addEventListener('keydown',function(e){
+          if(e.key==='Escape'&amp;&amp;card.classList.contains('open')){setOpen(false);badge.focus();}
+        });
+        card.addEventListener('click',function(e){
+          if(e.target.closest('#nl-hide'))parent.postMessage({nlHud:'state',value:'hidden'},'*');
+        });
+      &lt;/script&gt;
+    &lt;/body&gt;&lt;/html&gt;" style="position: fixed; bottom: 0px; right: 0px; border: 0px; margin: 0px; padding: 0px; background: transparent; color-scheme: dark; z-index: 2147483645; width: 197px; height: 64px; clip-path: path(&quot;M 3 3 H 184 V 51 H 3 Z&quot;);" data-nl-ready="1"></iframe></body></html>
